@@ -1,6 +1,42 @@
+/* Global styles */
+
   /* Smooth scroll behavior */
   html {
     scroll-behavior: smooth;
+  }
+
+  .instagram-float {
+    position: fixed;
+    top: 10%;
+    left: 10px;
+    width: 50px;
+    height: 50px;
+    background: #ffffff00;
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    padding: 6px;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .instagram-float:hover {
+    transform: scale(1.1);
+  }
+  
+  .instagram-float img {
+    width: 100%;
+    height: auto;
+    filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.3));
+    border-radius: 50%;
+  }
+  
+  .instagram-float.hide {
+    transform: translateX(-100px);
+    opacity: 0;
+    pointer-events: none;
   }
 
   body {
@@ -167,6 +203,12 @@
     margin-top: -5px; /* Optional: pulls it closer to menu item */
   }
   
+  .traditional-group {
+    border-right: 6px solid #ffc107; /* unified accent line */
+    border-radius: 16px;
+    padding-right: 5px;
+    margin-top: 20px;
+  }
   
   
   .item-details p {
