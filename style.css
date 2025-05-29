@@ -243,6 +243,40 @@
     -webkit-backdrop-filter: blur(4px);
     border: 1px solid rgba(255, 255, 255, 0.2);
   }
+  .menu-footer {
+    direction: rtl;
+  text-align: center;
+    padding: 12px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    color: #444;
+    border-top: 1px solid #ddd;
+  }
+  .menu-footer a {
+    color: #e91e63;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  /* Floating Call Icon */
+  .floating-call {
+    position: fixed;
+    bottom: 20px;
+    left: 20px; /* or right: 20px if you prefer */
+    background-color: #4caf50;
+    color: white;
+    padding: 12px;
+    border-radius: 50%;
+    font-size: 20px;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    z-index: 999;
+    transition: background-color 0.3s;
+  }
+  .floating-call:hover {
+    background-color: #43a047;
+  }
+  
   
   /* Mobile optimization */
   @media (max-width: 600px) {
