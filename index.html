@@ -21,8 +21,8 @@
 
   <div class="menu-container">
 
-    <section id="pizza">
-      <h2>پیتزا</h2>
+    <section id="hero" id="pizza">
+      <h2 >پیتزا</h2>
 
       <div class="menu-block">
         <div class="menu-item"><span>پیتزا گوشت قارچ تک </span><div class="price-box">230 ت</div></div>
@@ -285,61 +285,121 @@
   </div>
 
 
-  <a href="https://www.instagram.com/fastfood_amorajab/" target="_blank" class="instagram-float" aria-label="Instagram">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" alt="Instagram Logo">
-  </a>
-<!-- Footer with phone number -->
-<div class="menu-footer">
-  تماس با ما: <span dir="ltr">061 3652 3901</span>
-</div>
-
-<!-- Floating Call Icon -->
-<a href="tel:06136523901" class="floating-call" title="تماس تلفنی">
-  📞
+<!-- Instagram Icon -->
+<a href="https://www.instagram.com/fastfood_amorajab/" 
+   target="_blank" 
+   class="instagram-float" 
+   id="instagram-float" 
+   aria-label="Instagram">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" 
+       alt="Instagram Logo" 
+       width="100%" 
+       height="100%">
 </a>
 
-  <script>
-    document.querySelectorAll('.menu-item').forEach((item) => {
-      item.addEventListener('click', () => {
-        const details = item.nextElementSibling;
-        if (!details || !details.classList.contains('item-details')) return;
+<!-- Floating Call Icon -->
+<a href="tel:06136523901" 
+   class="floating-call" 
+   id="call-float" 
+   aria-label="تماس">
+  <img src="images/call-icon.svg" 
+       alt="تماس" 
+       width="100%" 
+       height="100%">
+</a>
 
-        const isOpen = details.style.maxHeight && details.style.maxHeight !== "0px";
 
-        document.querySelectorAll('.item-details').forEach(d => {
-          d.style.maxHeight = null;
-          d.style.paddingTop = 0;
-          d.style.opacity = 0;
-          d.style.border = "none";
-        });
+<!-- Footer with phone number -->
+<div class="menu-footer">
+  شماره تماس جهت سفارش: <span dir="ltr">061 3652 3901</span>
+</div>
 
-        if (!isOpen) {
-          details.style.maxHeight = details.scrollHeight + "px";
-          details.style.paddingTop = "10px";
-          details.style.opacity = 1;
-          details.style.border = "1px solid rgba(255, 255, 255, 0.2)";
-        }
-      });
-    });
-  </script>
 
 <script>
-  let lastScroll = 0;
-  const instaBtn = document.querySelector('.instagram-float');
+  document.querySelectorAll('.menu-item').forEach((item) => {
+    item.addEventListener('click', () => {
+      const details = item.nextElementSibling;
+      if (!details || !details.classList.contains('item-details')) return;
 
-  window.addEventListener('scroll', () => {
-    const currentScroll = window.pageYOffset;
+      const isOpen = details.style.maxHeight && details.style.maxHeight !== "0px";
 
-    if (currentScroll > lastScroll + 10) {
-      // Scrolling down
-      instaBtn.classList.add('hide');
-    } else if (currentScroll < lastScroll - 10) {
-      // Scrolling up
-      instaBtn.classList.remove('hide');
-    }
+      document.querySelectorAll('.item-details').forEach(d => {
+        d.style.maxHeight = null;
+        d.style.paddingTop = 0;
+        d.style.opacity = 0;
+        d.style.border = "none";
+      });
 
-    lastScroll = currentScroll;
+      if (!isOpen) {
+        details.style.maxHeight = details.scrollHeight + "px";
+        details.style.paddingTop = "10px";
+        details.style.opacity = 1;
+        details.style.border = "1px solid rgba(255, 255, 255, 0.2)";
+      }
+    });
   });
 </script>
+
+<script>
+  const instagramFloat = document.getElementById("instagram-float");
+  const callFloat = document.getElementById("call-float");
+  const heroSection = document.getElementById("hero");
+
+  let callFloatPosition = "top"; // either 'top' or 'bottom'
+  let isAnimating = false;
+
+  window.addEventListener("scroll", function () {
+    if (!heroSection || isAnimating) return;
+
+    const heroTop = heroSection.getBoundingClientRect().top;
+    const shouldMoveToBottom = heroTop < -50;
+
+    // Instagram fade toggle
+    if (instagramFloat) {
+      instagramFloat.style.opacity = shouldMoveToBottom ? "0" : "1";
+    }
+
+    if (callFloat) {
+      if (shouldMoveToBottom && callFloatPosition === "top") {
+        // Move to bottom
+        isAnimating = true;
+        callFloat.classList.add("slide-out");
+
+        setTimeout(() => {
+          callFloat.classList.remove("slide-out");
+          callFloat.classList.add("at-bottom", "slide-in");
+          callFloatPosition = "bottom";
+
+          setTimeout(() => {
+            callFloat.classList.remove("slide-in");
+            isAnimating = false;
+          }, 400); // match animation duration
+        }, 400);
+      } else if (!shouldMoveToBottom && callFloatPosition === "bottom") {
+        // Move back to top
+        isAnimating = true;
+        callFloat.classList.add("slide-out");
+
+        setTimeout(() => {
+          callFloat.classList.remove("slide-out", "at-bottom");
+          callFloat.classList.add("slide-in");
+          callFloatPosition = "top";
+
+          setTimeout(() => {
+            callFloat.classList.remove("slide-in");
+            isAnimating = false;
+          }, 400);
+        }, 400);
+      }
+    }
+  });
+</script>
+
+
+
+
+
+
+
 </body>
 </html>
