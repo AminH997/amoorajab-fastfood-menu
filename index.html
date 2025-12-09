@@ -1,406 +1,1429 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html dir="rtl" lang="ar">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>فست فود عمو رجب </title>
-  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap" rel="stylesheet">
+  <title>فست فود عمو رجب</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap" rel="stylesheet"/>
   <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet"/>
-  <link type="text/css" rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="style.css" type="text/css"/>
 </head>
+
 <body>
+
+  <!-- Navbar -->
   <nav class="navbar">
     <a href="#pizza">پیتزا</a>
     <a href="#sandwiches">ساندویچ</a>
     <a href="#burgers">برگر</a>
-    <a href="#traditional-food"> غذای سنتی</a>
-    
+    <a href="#traditional-food">غذای سنتی</a>
+    <a href="#platters">سینی‌ها</a>
+    <a href="#desserts">دسرها</a>
+
   </nav>
 
-  <img src="images/amoo-rajab.png" alt="عمو رجب" class="logo" />
+  <!-- Logo -->
+  <img class="logo" src="images/amoo-rajab.png" alt="عمو رجب"/>
 
+  <!-- Menu content -->
   <div class="menu-container">
 
+    <!-- ===== PIZZA ===== -->
     <section id="pizza">
       <h2 id="hero">پیتزا</h2>
 
+
+      <!-- پیتزا گوشت و قارچ -->
       <div class="menu-block">
-        <div class="menu-item"><span>پیتزا گوشت قارچ تک </span><div class="price-box">330 ت</div></div>
-        <div class="item-details"><p>محتویات</p></div>
+        <div class="menu-item-card">
+          <button class="menu-item flip-trigger" type="button">
+            <div class="card-face card-front">
+              <span class="item-title">پیتزا گوشت و قارچ</span>
+              <div class="prices">
+                <div class="price-entry">
+                  <span class="price-size">تک نفره</span>
+                  <span class="price-value">۳۳۰ ت</span>
+                </div>
+                <div class="price-entry">
+                  <span class="price-size">دو نفره</span>
+                  <span class="price-value">۶۴۰ ت</span>
+                </div>
+              </div>
+            </div>
+            <div class="card-face card-back">
+              <p>ترکیبات / توضیحات پیتزا گوشت و قارچ.</p>
+            </div>
+          </button>
+        </div>
       </div>
 
+      <!-- پیتزا مرغ و قارچ -->
       <div class="menu-block">
-        <div class="menu-item"><span>پیتزا گوشت قارچ دو نفره </span><div class="price-box">640 ت</div></div>
-        <div class="item-details"><p>150گرم گوشت قرمز،قارچ ،سس مخصوص، گوشت ریش ریش شده ، پنیر موزارلا           </p></div>
+        <div class="menu-item-card">
+          <button class="menu-item flip-trigger" type="button">
+            <div class="card-face card-front">
+              <span class="item-title">پیتزا مرغ و قارچ</span>
+              <div class="prices">
+                <div class="price-entry">
+                  <span class="price-size">تک نفره</span>
+                  <span class="price-value">۳۰۰ ت</span>
+                </div>
+                <div class="price-entry">
+                  <span class="price-size">دو نفره</span>
+                  <span class="price-value">۵۸۰ ت</span>
+                </div>
+              </div>
+            </div>
+            <div class="card-face card-back">
+              <p>ترکیبات / توضیحات پیتزا مرغ و قارچ.</p>
+            </div>
+          </button>
+        </div>
       </div>
 
+      <!-- پیتزا پپرونی -->
       <div class="menu-block">
-        <div class="menu-item"><span>پیتزا مرغ قارچ تک </span><div class="price-box">300 ت</div></div>
-        <div class="item-details"><p>محتویات</p></div>
+        <div class="menu-item-card">
+          <button class="menu-item flip-trigger" type="button">
+            <div class="card-face card-front">
+              <span class="item-title">پیتزا پپرونی</span>
+              <div class="prices">
+                <div class="price-entry">
+                  <span class="price-size">تک نفره</span>
+                  <span class="price-value">۲۸۰ ت</span>
+                </div>
+                <div class="price-entry">
+                  <span class="price-size">دو نفره</span>
+                  <span class="price-value">۵۸۰ ت</span>
+                </div>
+              </div>
+            </div>
+            <div class="card-face card-back">
+              <p>ترکیبات / توضیحات پیتزا پپرونی.</p>
+            </div>
+          </button>
+        </div>
       </div>
 
+      <!-- پیتزا مخصوص -->
       <div class="menu-block">
-        <div class="menu-item"><span>پیتزا مرغ قارچ دونفره </span><div class="price-box">580 ت</div></div>
-        <div class="item-details"><p>محتویات</p></div>
+        <div class="menu-item-card">
+          <button class="menu-item flip-trigger" type="button">
+            <div class="card-face card-front">
+              <span class="item-title">پیتزا مخصوص</span>
+              <div class="prices">
+                <div class="price-entry">
+                  <span class="price-size">تک نفره</span>
+                  <span class="price-value">۲۹۰ ت</span>
+                </div>
+                <div class="price-entry">
+                  <span class="price-size">دو نفره</span>
+                  <span class="price-value">۵۸۰ ت</span>
+                </div>
+              </div>
+            </div>
+            <div class="card-face card-back">
+              <p>ترکیبات / توضیحات پیتزا مخصوص.</p>
+            </div>
+          </button>
+        </div>
       </div>
 
+      <!-- سیب پنیر ویژه -->
       <div class="menu-block">
-        <div class="menu-item"><span>پیتزا پپروني تک</span><div class="price-box">280 ت</div></div>
-        <div class="item-details"><p>محتویات</p></div>
+        <div class="menu-item-card">
+          <button class="menu-item flip-trigger" type="button">
+            <div class="card-face card-front">
+              <span class="item-title">سیب پنیر ویژه</span>
+              <div class="prices">
+                <div class="price-entry">
+                  <span class="price-size">تک نفره</span>
+                  <span class="price-value">۲۰۰ ت</span>
+                </div>
+                <div class="price-entry">
+                  <span class="price-size">دو نفره</span>
+                  <span class="price-value">۳۸۰ ت</span>
+                </div>
+              </div>
+            </div>
+            <div class="card-face card-back">
+              <p>ترکیبات / توضیحات سیب پنیر ویژه.</p>
+            </div>
+          </button>
+        </div>
       </div>
 
-      <div class="menu-block">
-        <div class="menu-item"><span>پیتزا پپروني دو نفره</span><div class="price-box">560 ت</div></div>
-        <div class="item-details"><p>محتویات</p></div>
-      </div>
-
-      <div class="menu-block">
-        <div class="menu-item"><span>پیتزا میني مخصوص (ژامبون-قارچ و مرغ)</span><div class="price-box">180 ت</div></div>
-        <div class="item-details"><p>محتویات</p></div>
-      </div>
-
-      <div class="menu-block">
-        <div class="menu-item"><span>پیتزا یک نفره مخصوص (ژامبون-قارچ و مرغ)</span><div class="price-box">290 ت</div></div>
-        <div class="item-details"><p>محتویات</p></div>
-      </div>
-
-      <div class="menu-block">
-        <div class="menu-item"><span>پیتزا دو نفره مخصوص (ژامبون-قارچ و مرغ)</span><div class="price-box">580 ت</div></div>
-        <div class="item-details"><p>محتویات</p></div>
-      </div>
-
-      <div class="menu-block">
-        <div class="menu-item"><span>سیب پنیر ویژه تک نفره</span><div class="price-box">200 ت</div></div>
-        <div class="item-details"><p>محتویات</p></div>
-      </div>
-      <div class="menu-block">
-        <div class="menu-item"><span>سیب پنیر ویژه دونفره </span><div class="price-box">220 ت</div></div>
-        <div class="item-details"><p>محتویات</p></div>
-      </div>
-      <div class="menu-block">
-        <div class="menu-item"><span>سیب ساده</span><div class="price-box">120 ت</div></div>
-        <div class="item-details"><p>محتویات</p></div>
-      </div>
     </section>
 
+    <!-- ===== SANDWICHES ===== -->
     <section id="sandwiches">
       <h2>ساندویچ</h2>
 
+      <!-- NOTE: names & prices approximated from photo, fix as needed -->
+
+      <!-- ساندویچ کوبیده ویژه -->
       <div class="menu-block">
-        <div class="menu-item"><span>  سوسیس هات داگ ویژه (مرغ-قارچ-پنیر)</span><div class="price-box">230 ت</div></div>
-        <div class="item-details"><p>محتویات</p></div>
+        <div class="menu-item-card">
+          <button class="menu-item flip-trigger" type="button">
+            <div class="card-face card-front">
+              <span class="item-title">ساندویچ کوبیده ویژه</span>
+              <div class="prices">
+                <div class="price-entry">
+                  <span class="price-value">۲۳۰ ت</span>
+                </div>
+              </div>
+            </div>
+            <div class="card-face card-back">
+              <p>ترکیبات / توضیحات ساندویچ کوبیده ویژه.</p>
+            </div>
+          </button>
+        </div>
       </div>
 
+      <!-- ساندویچ کوبیده کلاسیک -->
       <div class="menu-block">
-        <div class="menu-item"><span>هات داگ پنیری ساده </span><div class="price-box">170 ت</div></div>
-        <div class="item-details"><p>محتویات</p></div>
-      </div>
-      <div class="menu-block">
-        <div class="menu-item"><span>کوکتل پنیری ویژه(مرغ-قارچ-پنیر)</span><div class="price-box">180 ت</div></div>
-        <div class="item-details"><p>محتویات</p></div>
-      </div>
-    
-      <div class="menu-block">
-        <div class="menu-item"><span>کوکتل ساده</span><div class="price-box">120 ت</div></div>
-        <div class="item-details"><p>محتویات</p></div>
-      </div>
-    
-      <div class="menu-block">
-        <div class="menu-item"><span>بندری پنیری ویژه(مرغ-قارچ-پنیر)</span><div class="price-box">210 ت</div></div>
-        <div class="item-details"><p>محتویات</p></div>
-      </div>
-    
-      <div class="menu-block">
-        <div class="menu-item"><span>بندری ساده</span><div class="price-box">140 ت</div></div>
-        <div class="item-details"><p>محتویات</p></div>
-      </div>
-    
-      <div class="menu-block">
-        <div class="menu-item"><span>سوسیس آلمانی</span><div class="price-box">80 ت</div></div>
-        <div class="item-details"><p>محتویات</p></div>
-      </div>
-    
-      <div class="menu-block">
-        <div class="menu-item"><span>فلافل ویژه(مرغ-قارچ-پنیر)</span><div class="price-box">180 ت</div></div>
-        <div class="item-details"><p>محتویات</p></div>
-      </div>
-    
-      <div class="menu-block">
-        <div class="menu-item"><span>فلافل مخصوص(ژامبون-بندری)</span><div class="price-box">150 ت</div></div>
-        <div class="item-details"><p>محتویات</p></div>
-      </div>
-    
-      <div class="menu-block">
-        <div class="menu-item"><span>بانی فلافل(نون فرانسوی)</span><div class="price-box">120 ت</div></div>
-        <div class="item-details"><p>محتویات</p></div>
-      </div>
-    
-      <div class="menu-block">
-        <div class="menu-item"><span>فلافل(نون فرانسوی)</span><div class="price-box">80 ت</div></div>
-        <div class="item-details"><p>محتویات</p></div>
-      </div>
-    
-      <div class="menu-block">
-        <div class="menu-item"><span>سمبوسه پیتزایی</span><div class="price-box">60 ت</div></div>
-        <div class="item-details"><p>محتویات</p></div>
-      </div>
-    
-      <div class="traditional-group">
-        <div class="menu-block">
-          <div class="menu-item"><span>ساندویچ مرغ و قارچ پنیری</span><div class="price-box">260 ت</div></div>
-          <div class="item-details"><p>محتویات</p></div>
-        </div>
-      
-        <div class="menu-block">
-          <div class="menu-item"><span>ساندویچ مرغ ساده</span><div class="price-box">220 ت</div></div>
-          <div class="item-details"><p>محتویات</p></div>
-        </div>
-      
-        <div class="menu-block">
-          <div class="menu-item"><span>ساندویچ گوشت و قارچ پنیری</span><div class="price-box">300 ت</div></div>
-          <div class="item-details"><p>محتویات</p></div>
-        </div>
-      
-        <div class="menu-block">
-          <div class="menu-item"><span>ساندویچ کوبیده ویژه(مرغ-قارچ-پنیر)</span><div class="price-box">320 ت</div></div>
-          <div class="item-details"><p>محتویات</p></div>
-        </div>
-      
-        <div class="menu-block">
-          <div class="menu-item"><span>ساندویچ کوبیده ساده</span><div class="price-box">280 ت</div></div>
-          <div class="item-details"><p>محتویات</p></div>
-        </div>
-      
-        <div class="menu-block">
-          <div class="menu-item"><span>ساندویچ جوجه ویژه (مرغ-قارچ-پنیر)</span><div class="price-box">310 ت</div></div>
-          <div class="item-details"><p>محتویات</p></div>
-        </div>
-      
-        <div class="menu-block">
-          <div class="menu-item"><span>ساندویچ جوجه ساده</span><div class="price-box">270 ت</div></div>
-          <div class="item-details"><p>محتویات</p></div>
+        <div class="menu-item-card">
+          <button class="menu-item flip-trigger" type="button">
+            <div class="card-face card-front">
+              <span class="item-title">ساندویچ کوبیده کلاسیک</span>
+              <div class="prices">
+                <div class="price-entry">
+                  <span class="price-value">۲۲۰ ت</span>
+                </div>
+              </div>
+            </div>
+            <div class="card-face card-back">
+              <p>ترکیبات / توضیحات ساندویچ کوبیده کلاسیک.</p>
+            </div>
+          </button>
         </div>
       </div>
-      
-      
+
+      <!-- ساندویچ جوجه ویژه -->
+      <div class="menu-block">
+        <div class="menu-item-card">
+          <button class="menu-item flip-trigger" type="button">
+            <div class="card-face card-front">
+              <span class="item-title">ساندویچ جوجه ویژه</span>
+              <div class="prices">
+                <div class="price-entry">
+                  <span class="price-value">۲۸۰ ت</span>
+                </div>
+              </div>
+            </div>
+            <div class="card-face card-back">
+              <p>ترکیبات / توضیحات ساندویچ جوجه ویژه.</p>
+            </div>
+          </button>
+        </div>
+      </div>
+
+      <!-- ساندویچ جوجه کلاسیک -->
+      <div class="menu-block">
+        <div class="menu-item-card">
+          <button class="menu-item flip-trigger" type="button">
+            <div class="card-face card-front">
+              <span class="item-title">ساندویچ جوجه کلاسیک</span>
+              <div class="prices">
+                <div class="price-entry">
+                  <span class="price-value">۲۷۰ ت</span>
+                </div>
+              </div>
+            </div>
+            <div class="card-face card-back">
+              <p>ترکیبات / توضیحات ساندویچ جوجه کلاسیک.</p>
+            </div>
+          </button>
+        </div>
+      </div>
+
+      <!-- ساندویچ مرغ و قارچ و پنیر -->
+      <div class="menu-block">
+        <div class="menu-item-card">
+          <button class="menu-item flip-trigger" type="button">
+            <div class="card-face card-front">
+              <span class="item-title">ساندویچ مرغ و قارچ و پنیر</span>
+              <div class="prices">
+                <div class="price-entry">
+                  <span class="price-value">۲۷۰ ت</span>
+                </div>
+              </div>
+            </div>
+            <div class="card-face card-back">
+              <p>ترکیبات / توضیحات ساندویچ مرغ و قارچ و پنیر.</p>
+            </div>
+          </button>
+        </div>
+      </div>
+
+      <!-- ناگت مرغ کلاسیک (highlight row) -->
+      <div class="menu-block">
+        <div class="menu-item-card">
+          <button class="menu-item flip-trigger" type="button">
+            <div class="card-face card-front">
+              <span class="item-title">ناگت مرغ کلاسیک</span>
+              <div class="prices">
+                <div class="price-entry">
+                  <span class="price-value">۲۲۰ ت</span>
+                </div>
+              </div>
+            </div>
+            <div class="card-face card-back">
+              <p>ترکیبات / توضیحات ناگت مرغ کلاسیک.</p>
+            </div>
+          </button>
+        </div>
+      </div>
+
+      <!-- ناگت مرغ ویژه -->
+      <div class="menu-block">
+        <div class="menu-item-card">
+          <button class="menu-item flip-trigger" type="button">
+            <div class="card-face card-front">
+              <span class="item-title">ناگت مرغ ویژه</span>
+              <div class="prices">
+                <div class="price-entry">
+                  <span class="price-value">۲۳۰ ت</span>
+                </div>
+              </div>
+            </div>
+            <div class="card-face card-back">
+              <p>ترکیبات / توضیحات ناگت مرغ ویژه.</p>
+            </div>
+          </button>
+        </div>
+      </div>
+
+      <!-- هات داگ کلاسیک -->
+      <div class="menu-block">
+        <div class="menu-item-card">
+          <button class="menu-item flip-trigger" type="button">
+            <div class="card-face card-front">
+              <span class="item-title">هات داگ کلاسیک</span>
+              <div class="prices">
+                <div class="price-entry">
+                  <span class="price-value">۱۸۰ ت</span>
+                </div>
+              </div>
+            </div>
+            <div class="card-face card-back">
+              <p>ترکیبات / توضیحات هات داگ کلاسیک.</p>
+            </div>
+          </button>
+        </div>
+      </div>
+
+      <!-- هات داگ ویژه -->
+      <div class="menu-block">
+        <div class="menu-item-card">
+          <button class="menu-item flip-trigger" type="button">
+            <div class="card-face card-front">
+              <span class="item-title">هات داگ ویژه</span>
+              <div class="prices">
+                <div class="price-entry">
+                  <span class="price-value">۱۸۰ ت</span>
+                </div>
+              </div>
+            </div>
+            <div class="card-face card-back">
+              <p>ترکیبات / توضیحات هات داگ ویژه.</p>
+            </div>
+          </button>
+        </div>
+      </div>
+
+      <!-- کوکتل پنیری ویژه -->
+      <div class="menu-block">
+        <div class="menu-item-card">
+          <button class="menu-item flip-trigger" type="button">
+            <div class="card-face card-front">
+              <span class="item-title">کوکتل پنیری ویژه</span>
+              <div class="prices">
+                <div class="price-entry">
+                  <span class="price-value">۱۵۰ ت</span>
+                </div>
+              </div>
+            </div>
+            <div class="card-face card-back">
+              <p>ترکیبات / توضیحات کوکتل پنیری ویژه.</p>
+            </div>
+          </button>
+        </div>
+      </div>
+
+      <!-- کوکتل پنیری کلاسیک -->
+      <div class="menu-block">
+        <div class="menu-item-card">
+          <button class="menu-item flip-trigger" type="button">
+            <div class="card-face card-front">
+              <span class="item-title">کوکتل پنیری کلاسیک</span>
+              <div class="prices">
+                <div class="price-entry">
+                  <span class="price-value">۱۵۰ ت</span>
+                </div>
+              </div>
+            </div>
+            <div class="card-face card-back">
+              <p>ترکیبات / توضیحات کوکتل پنیری کلاسیک.</p>
+            </div>
+          </button>
+        </div>
+      </div>
+
+      <!-- ژامبون ویژه -->
+      <div class="menu-block">
+        <div class="menu-item-card">
+          <button class="menu-item flip-trigger" type="button">
+            <div class="card-face card-front">
+              <span class="item-title">ژامبون ویژه</span>
+              <div class="prices">
+                <div class="price-entry">
+                  <span class="price-value">۱۵۰ ت</span>
+                </div>
+              </div>
+            </div>
+            <div class="card-face card-back">
+              <p>ترکیبات / توضیحات ژامبون ویژه.</p>
+            </div>
+          </button>
+        </div>
+      </div>
+
+      <!-- ژامبون مخصوص -->
+      <div class="menu-block">
+        <div class="menu-item-card">
+          <button class="menu-item flip-trigger" type="button">
+            <div class="card-face card-front">
+              <span class="item-title">ژامبون مخصوص</span>
+              <div class="prices">
+                <div class="price-entry">
+                  <span class="price-value">۱۵۰ ت</span>
+                </div>
+              </div>
+            </div>
+            <div class="card-face card-back">
+              <p>ترکیبات / توضیحات ژامبون مخصوص.</p>
+            </div>
+          </button>
+        </div>
+      </div>
+
     </section>
 
-      <section id="burgers">
-        <h2>برگر</h2>
-      
-        <div class="menu-block">
-          <div class="menu-item"><span>برگر مخصوص بانی</span><div class="price-box">180 ت</div></div>
-          <div class="item-details"><p>محتویات</p></div>
+ <!-- ===== BURGERS ===== -->
+ <section id="burgers">
+  <h2>برگر</h2>
+
+  <div class="menu-block">
+    <div class="menu-item-card">
+      <button class="menu-item flip-trigger" type="button">
+        <div class="card-face card-front">
+          <span class="item-title">دوبل برگر ذغالی ویژه</span>
+          <div class="prices">
+            <div class="price-entry">
+              <span class="price-value">۴۰۰ ت</span>
+            </div>
+          </div>
         </div>
-      
-        <div class="menu-block">
-          <div class="menu-item"><span> برگر مخصوص ویژه (مرغ-قارچ-پنیر)</span><div class="price-box">250 ت</div></div>
-          <div class="item-details"><p>محتویات</p></div>
+        <div class="card-face card-back">
+          <p>ترکیبات / توضیحات [دوبل برگر ذغالی ویژه].</p>
         </div>
-      
-        <div class="menu-block">
-          <div class="menu-item"><span> دوبل برگر مخصوص ویژه (مرغ-قارچ-پنیر)</span><div class="price-box">320 ت</div></div>
-          <div class="item-details"><p>محتویات</p></div>
+      </button>
+    </div>
+  </div>
+
+  <div class="menu-block">
+    <div class="menu-item-card">
+      <button class="menu-item flip-trigger" type="button">
+        <div class="card-face card-front">
+          <span class="item-title">برگر ذغالی ۱۰۰٪ ویژه</span>
+          <div class="prices">
+            <div class="price-entry">
+              <span class="price-value">۳۰۰ ت</span>
+            </div>
+          </div>
         </div>
-      
-        <div class="menu-block">
-          <div class="menu-item"><span> برگر زغالی بانی</span><div class="price-box">230 ت</div></div>
-          <div class="item-details"><p>محتویات</p></div>
+        <div class="card-face card-back">
+          <p>ترکیبات / توضیحات [برگر ذغالی ۱۰۰٪ ویژه].</p>
         </div>
-      
-        <div class="menu-block">
-          <div class="menu-item"><span>برگر ذغالی ویژه (مرغ-قارچ-پنیر)</span><div class="price-box">300 ت</div></div>
-          <div class="item-details"><p>محتویات</p></div>
+      </button>
+    </div>
+  </div>
+
+  <div class="menu-block">
+    <div class="menu-item-card">
+      <button class="menu-item flip-trigger" type="button">
+        <div class="card-face card-front">
+          <span class="item-title">برگر ذغالی ۹۰٪ بانی</span>
+          <div class="prices">
+            <div class="price-entry">
+              <span class="price-value">۲۲۰ ت</span>
+            </div>
+          </div>
         </div>
-      
-        <div class="menu-block">
-          <div class="menu-item"><span>دوبل برگر ویژه (مرغ-قارچ-پنیر)</span><div class="price-box">400 ت</div></div>
-          <div class="item-details"><p>محتویات</p></div>
+        <div class="card-face card-back">
+          <p>ترکیبات / توضیحات [برگر ذغالی ۹۰٪ بانی].</p>
         </div>
-      
-        <div class="menu-block">
-          <div class="menu-item"><span>برگر معمولی</span><div class="price-box">90 ت</div></div>
-          <div class="item-details"><p>محتویات</p></div>
+      </button>
+    </div>
+  </div>
+
+  <div class="menu-block">
+    <div class="menu-item-card">
+      <button class="menu-item flip-trigger" type="button">
+        <div class="card-face card-front">
+          <span class="item-title">برگر ذغالی ۹۰٪ کلاسیک</span>
+          <div class="prices">
+            <div class="price-entry">
+              <span class="price-value">۲۱۰ ت</span>
+            </div>
+          </div>
         </div>
-      
-        <div class="menu-block">
-          <div class="menu-item"><span> همبربانی معمولی</span><div class="price-box">120 ت</div></div>
-          <div class="item-details"><p>محتویات</p></div>
+        <div class="card-face card-back">
+          <p>ترکیبات / توضیحات [برگر ذغالی ۹۰٪ کلاسیک].</p>
         </div>
-      
-        <div class="menu-block">
-          <div class="menu-item"><span> همبر معمولی ویژه (مرغ-قارچ-پنیر)</span><div class="price-box">190 ت</div></div>
-          <div class="item-details"><p>محتویات</p></div>
+      </button>
+    </div>
+  </div>
+
+  <div class="menu-block">
+    <div class="menu-item-card">
+      <button class="menu-item flip-trigger" type="button">
+        <div class="card-face card-front">
+          <span class="item-title">دوبل برگر ۶۰٪ ویژه</span>
+          <div class="prices">
+            <div class="price-entry">
+              <span class="price-value">۳۳۰ ت</span>
+            </div>
+          </div>
         </div>
-      
-        <div class="menu-block">
-          <div class="menu-item"><span>کالباس خشک  %60</span><div class="price-box">130 ت</div></div>
-          <div class="item-details"><p>محتویات</p></div>
+        <div class="card-face card-back">
+          <p>ترکیبات / توضیحات [دوبل برگر ۶۰٪ ویژه].</p>
         </div>
-      
-        <div class="menu-block">
-          <div class="menu-item"><span> ژامبون گوشت %80</span><div class="price-box">200 ت</div></div>
-          <div class="item-details"><p>محتویات</p></div>
+      </button>
+    </div>
+  </div>
+
+  <div class="menu-block">
+    <div class="menu-item-card">
+      <button class="menu-item flip-trigger" type="button">
+        <div class="card-face card-front">
+          <span class="item-title">برگر ۶۰٪ ویژه</span>
+          <div class="prices">
+            <div class="price-entry">
+              <span class="price-value">۲۵۰ ت</span>
+            </div>
+          </div>
         </div>
-      </section>
-      
+        <div class="card-face card-back">
+          <p>ترکیبات / توضیحات [برگر ۶۰٪ ویژه].</p>
+        </div>
+      </button>
+    </div>
+  </div>
+
+  <div class="menu-block">
+    <div class="menu-item-card">
+      <button class="menu-item flip-trigger" type="button">
+        <div class="card-face card-front">
+          <span class="item-title">برگر ۶۰٪ بانی</span>
+          <div class="prices">
+            <div class="price-entry">
+              <span class="price-value">۱۹۰ ت</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-face card-back">
+          <p>ترکیبات / توضیحات [برگر ۶۰٪ بانی].</p>
+        </div>
+      </button>
+    </div>
+  </div>
+
+  <div class="menu-block">
+    <div class="menu-item-card">
+      <button class="menu-item flip-trigger" type="button">
+        <div class="card-face card-front">
+          <span class="item-title">برگر ۶۰٪ کلاسیک</span>
+          <div class="prices">
+            <div class="price-entry">
+              <span class="price-value">۱۷۰ ت</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-face card-back">
+          <p>ترکیبات / توضیحات [برگر ۶۰٪ کلاسیک].</p>
+        </div>
+      </button>
+    </div>
+  </div>
+
+  <div class="menu-block">
+    <div class="menu-item-card">
+      <button class="menu-item flip-trigger" type="button">
+        <div class="card-face card-front">
+          <span class="item-title">برگر سبزیجات ویژه</span>
+          <div class="prices">
+            <div class="price-entry">
+              <span class="price-value">۲۰۰ ت</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-face card-back">
+          <p>ترکیبات / توضیحات [برگر سبزیجات ویژه].</p>
+        </div>
+      </button>
+    </div>
+  </div>
+
+  <div class="menu-block">
+    <div class="menu-item-card">
+      <button class="menu-item flip-trigger" type="button">
+        <div class="card-face card-front">
+          <span class="item-title">برگر سبزیجات کلاسیک</span>
+          <div class="prices">
+            <div class="price-entry">
+              <span class="price-value">۱۰۰ ت</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-face card-back">
+          <p>ترکیبات / توضیحات [برگر سبزیجات کلاسیک].</p>
+        </div>
+      </button>
+    </div>
+  </div>
+
+  <div class="menu-block">
+    <div class="menu-item-card">
+      <button class="menu-item flip-trigger" type="button">
+        <div class="card-face card-front">
+          <span class="item-title">برگر سبزیجات بانی</span>
+          <div class="prices">
+            <div class="price-entry">
+              <span class="price-value">۱۲۰ ت</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-face card-back">
+          <p>ترکیبات / توضیحات [برگر سبزیجات بانی].</p>
+        </div>
+      </button>
+    </div>
+  </div>
+
+</section>
+
+
+    </section>
+
+    <!-- ===== TRADITIONAL FOOD ===== -->
     <section id="traditional-food">
-      <h2>غذای سنتی </h2>
+      <h2>غذاهای سنتی</h2>
 
       <div class="menu-block">
-        <div class="menu-item"><span>اکبرجوجه با برنج و سس مخصوص</span><div class="price-box">380 ت</div></div>
-        <div class="item-details"><p>محتویات</p></div>
-      </div>
-
-      <div class="menu-block">
-        <div class="menu-item"><span>اکبرجوجه با سس مخصوص</span><div class="price-box">320 ت</div></div>
-        <div class="item-details"><p>محتویات</p></div>
-      </div>
-
-      <div class="menu-block">
-        <div class="menu-item"><span>چلو کوبیده</span><div class="price-box">340 ت</div></div>
-        <div class="item-details"><p>محتویات</p></div>
-      </div>
-
-      <div class="menu-block">
-        <div class="menu-item"><span>خوراک کوبیده</span><div class="price-box">280 ت</div></div>
-        <div class="item-details"><p>محتویات</p></div>
-      </div>
-      
-      <div class="menu-block">
-        <div class="menu-item"><span>چلو جوجه</span><div class="price-box">320 ت</div></div>
-        <div class="item-details"><p>محتویات</p></div>
+        <div class="menu-item-card">
+          <button class="menu-item flip-trigger" type="button">
+            <div class="card-face card-front">
+              <span class="item-title">اکبر جوجه با برنج</span>
+              <small>سس مخصوص</small>
+              <div class="prices">
+                <div class="price-entry">
+                  <span class="price-value">۳۸۰ ت</span>
+                </div>
+              </div>
+            </div>
+            <div class="card-face card-back">
+              <p>ترکیبات / توضیحات [اکبر جوجه با برنج].</p>
+            </div>
+          </button>
+        </div>
       </div>
 
       <div class="menu-block">
-        <div class="menu-item"><span>خوراک جوجه</span><div class="price-box">270 ت</div></div>
-        <div class="item-details"><p>محتویات</p></div>
+        <div class="menu-item-card">
+          <button class="menu-item flip-trigger" type="button">
+            <div class="card-face card-front">
+              <span class="item-title">اکبر جوجه خوراک</span>
+              <small>سس مخصوص</small>
+              <div class="prices">
+                <div class="price-entry">
+                  <span class="price-value">۳۲۰ ت</span>
+                </div>
+              </div>
+            </div>
+            <div class="card-face card-back">
+              <p>ترکیبات / توضیحات [اکبر جوجه خوراک].</p>
+            </div>
+          </button>
+        </div>
       </div>
+
+      <div class="menu-block">
+        <div class="menu-item-card">
+          <button class="menu-item flip-trigger" type="button">
+            <div class="card-face card-front">
+              <span class="item-title">چلو کوبیده</span>
+              <div class="prices">
+                <div class="price-entry">
+                  <span class="price-value">۳۴۰ ت</span>
+                </div>
+              </div>
+            </div>
+            <div class="card-face card-back">
+              <p>ترکیبات / توضیحات [چلو کوبیده].</p>
+            </div>
+          </button>
+        </div>
+      </div>
+
+      <div class="menu-block">
+        <div class="menu-item-card">
+          <button class="menu-item flip-trigger" type="button">
+            <div class="card-face card-front">
+              <span class="item-title">خوراک کوبیده</span>
+              <div class="prices">
+                <div class="price-entry">
+                  <span class="price-value">۲۸۰ ت</span>
+                </div>
+              </div>
+            </div>
+            <div class="card-face card-back">
+              <p>ترکیبات / توضیحات [خوراک کوبیده].</p>
+            </div>
+          </button>
+        </div>
+      </div>
+
+      <div class="menu-block">
+        <div class="menu-item-card">
+          <button class="menu-item flip-trigger" type="button">
+            <div class="card-face card-front">
+              <span class="item-title">چلو جوجه</span>
+              <div class="prices">
+                <div class="price-entry">
+                  <span class="price-value">۳۲۰ ت</span>
+                </div>
+              </div>
+            </div>
+            <div class="card-face card-back">
+              <p>ترکیبات / توضیحات [چلو جوجه].</p>
+            </div>
+          </button>
+        </div>
+      </div>
+
+      <div class="menu-block">
+        <div class="menu-item-card">
+          <button class="menu-item flip-trigger" type="button">
+            <div class="card-face card-front">
+              <span class="item-title">خوراک جوجه</span>
+              <div class="prices">
+                <div class="price-entry">
+                  <span class="price-value">۲۷۰ ت</span>
+                </div>
+              </div>
+            </div>
+            <div class="card-face card-back">
+              <p>ترکیبات / توضیحات [خوراک جوجه].</p>
+            </div>
+          </button>
+        </div>
+      </div>
+
+      <div class="menu-block">
+        <div class="menu-item-card">
+          <button class="menu-item flip-trigger" type="button">
+            <div class="card-face card-front">
+              <span class="item-title">کتف و بال کبابی</span>
+              <div class="prices">
+                <div class="price-entry">
+                  <span class="price-value">۲۲۰ ت</span>
+                </div>
+              </div>
+            </div>
+            <div class="card-face card-back">
+              <p>ترکیبات / توضیحات [کتف و بال کبابی].</p>
+            </div>
+          </button>
+        </div>
+      </div>
+
+      <div class="menu-block">
+        <div class="menu-item-card">
+          <button class="menu-item flip-trigger" type="button">
+            <div class="card-face card-front">
+              <span class="item-title">قارچ کبابی</span>
+              <div class="prices">
+                <div class="price-entry">
+                  <span class="price-value">۱۵۰ ت</span>
+                </div>
+              </div>
+            </div>
+            <div class="card-face card-back">
+              <p>ترکیبات / توضیحات [قارچ کبابی].</p>
+            </div>
+          </button>
+        </div>
+      </div>
+
+      <div class="menu-block">
+        <div class="menu-item-card">
+          <button class="menu-item flip-trigger" type="button">
+            <div class="card-face card-front">
+              <span class="item-title">چلو میکس</span>
+              <div class="prices">
+                <div class="price-entry">
+                  <span class="price-value">۳۵۰ ت</span>
+                </div>
+              </div>
+            </div>
+            <div class="card-face card-back">
+              <p>ترکیبات / توضیحات [چلو مکس].</p>
+            </div>
+          </button>
+        </div>
+      </div>
+
     </section>
 
+
+    <!-- ===== PLATTERS ===== -->
+<!-- Transcriptions for platter ingredients inserted from uploaded file. :contentReference[oaicite:0]{index=0} -->
+<section id="platters">
+  <h2>سینی‌ها</h2>
+
+  <div class="menu-block">
+    <div class="menu-item-card">
+      <button class="menu-item flip-trigger" type="button">
+        <div class="card-face card-front">
+          <span class="item-title">سینی میکس اکبر جوجه، کوبیده و سالاد فصل</span>
+          <div class="prices">
+            <div class="price-entry">
+              <span class="price-size">۲ نفره</span>
+              <span class="price-value">۷۷۰ ت</span>
+            </div>
+            <div class="price-entry">
+              <span class="price-size">۴ نفره</span>
+              <span class="price-value">۱۵۰۰ ت</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-face card-back">
+          <p>۲ نفره: دو سیخ جوجه + اکبر جوجه + دو عدد برنج + یک عدد سالاد + ۱۰۰ گرم سیب<br>
+          ۴ نفره: چهار سیخ کوبیده + ۲ عدد اکبر جوجه + سه عدد برنج + ۲۰۰ گرم سیب + دو عدد سالاد</p>
+        </div>
+      </button>
+    </div>
+  </div>
+
+  <div class="menu-block">
+    <div class="menu-item-card">
+      <button class="menu-item flip-trigger" type="button">
+        <div class="card-face card-front">
+          <span class="item-title">سینی میکس خوراک اکبر جوجه و سوخاری</span>
+          <div class="prices">
+            <div class="price-entry">
+              <span class="price-size">۲ نفره</span>
+              <span class="price-value">۵۷۰ ت</span>
+            </div>
+            <div class="price-entry">
+              <span class="price-size">۴ نفره</span>
+              <span class="price-value">۱۰۸۰ ت</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-face card-back">
+          <p>۲ نفره: اکبر جوجه + ۲۵۰ گرم سوخاری + یک عدد سالاد + ۱۰۰ گرم سیب<br>
+          ۴ نفره: ۲ عدد اکبر جوجه + ۴۰۰ گرم سوخاری + سه عدد نان باگت + یک عدد سالاد</p>
+        </div>
+      </button>
+    </div>
+  </div>
+
+  <div class="menu-block">
+    <div class="menu-item-card">
+      <button class="menu-item flip-trigger" type="button">
+        <div class="card-face card-front">
+          <span class="item-title">سینی کتف و بال کبابی و قارچ کبابی</span>
+          <div class="prices">
+            <div class="price-entry">
+              <span class="price-size">۲ نفره</span>
+              <span class="price-value">۳۴۰ ت</span>
+            </div>
+            <div class="price-entry">
+              <span class="price-size">۴ نفره</span>
+              <span class="price-value">۱۲۵۰ ت</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-face card-back">
+          <p>۲ نفره: دو سیخ کتف و بال + یک سیخ قارچ + یک عدد سالاد<br>
+          ۴ نفره: چهار سیخ کتف و بال + دو سیخ قارچ + دو عدد سالاد</p>
+        </div>
+      </button>
+    </div>
+  </div>
+
+  <div class="menu-block">
+    <div class="menu-item-card">
+      <button class="menu-item flip-trigger" type="button">
+        <div class="card-face card-front">
+          <span class="item-title">سینی جوجه کباب، کوبیده و سالاد فصل</span>
+          <div class="prices">
+            <div class="price-entry">
+              <span class="price-size">۲ نفره</span>
+              <span class="price-value">۸۷۰ ت</span>
+            </div>
+            <div class="price-entry">
+              <span class="price-size">۴ نفره</span>
+              <span class="price-value">۱۳۹۰ ت</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-face card-back">
+          <p>۲ نفره: چلو کباب + چلو جوجه + یک عدد سالاد + ماست + زیتون<br>
+          ۴ نفره: ۴ عدد چلو کباب + دو عدد چلو جوجه + دو عدد سالاد + ۲ ماست + ترشی</p>
+        </div>
+      </button>
+    </div>
+  </div>
+
+  <div class="menu-block">
+    <div class="menu-item-card">
+      <button class="menu-item flip-trigger" type="button">
+        <div class="card-face card-front">
+          <span class="item-title">سینی میکس خوراک تندوری و سوخاری</span>
+          <div class="prices">
+            <div class="price-entry">
+              <span class="price-size">۲ نفره</span>
+              <span class="price-value">۵۷۵ ت</span>
+            </div>
+            <div class="price-entry">
+              <span class="price-size">۴ نفره</span>
+              <span class="price-value">۱۰۵۰ ت</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-face card-back">
+          <p>۲ نفره: ۲۵۰ گرم شاورما + ۳۰۰ گرم سوخاری + یک عدد سالاد فصل + ماست + نان باگت<br>
+          ۴ نفره: ۵۰۰ گرم شاورما + ۵۰۰ گرم سوخاری + دو عدد سالاد فصل + ۴ عدد نان باگت</p>
+        </div>
+      </button>
+    </div>
+  </div>
+
+  <div class="menu-block">
+    <div class="menu-item-card">
+      <button class="menu-item flip-trigger" type="button">
+        <div class="card-face card-front">
+          <span class="item-title">سینی میکس</span>
+          <div class="prices">
+            <div class="price-entry">
+              <span class="price-size">۲ نفره</span>
+              <span class="price-value">۱۱۰۰ ت</span>
+            </div>
+            <div class="price-entry">
+              <span class="price-size">۴ نفره</span>
+              <span class="price-value">۱۹۹۰ ت</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-face card-back">
+          <p>۲ نفره: ۱۰۰ گرم سوخاری + ۲۰۰ گرم شاورما + یک سیخ کوبیده + یک سیخ جوجه + اکبر جوجه + سالاد<br>
+          ۴ نفره: ۳۰۰ گرم سوخاری + ۲۵۰ گرم شاورما + ۳ سیخ کوبیده + جوجه + ۲ عدد اکبر جوجه + ۲ سالاد</p>
+        </div>
+      </button>
+    </div>
+  </div>
+
+  <div class="menu-block">
+    <div class="menu-item-card">
+      <button class="menu-item flip-trigger" type="button">
+        <div class="card-face card-front">
+          <span class="item-title">سینی میکس انواع سوخاری</span>
+          <div class="prices">
+            <div class="price-entry">
+              <span class="price-size">۲ نفره</span>
+              <span class="price-value">۷۰۰ ت</span>
+            </div>
+            <div class="price-entry">
+              <span class="price-size">۴ نفره</span>
+              <span class="price-value">۱۲۷۰ ت</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-face card-back">
+          <p>۲ نفره: ۳۰۰ گرم سیب + ۷۰۰ گرم سوخاری + ۴ عدد نان + یک عدد سالاد فصل<br>
+          ۴ نفره: ۶۰۰ گرم سیب + ۱۲۰۰ گرم سوخاری + ۴ عدد نان + دو عدد سالاد فصل + ماست</p>
+        </div>
+      </button>
+    </div>
+  </div>
+
+  <div class="menu-block">
+    <div class="menu-item-card">
+      <button class="menu-item flip-trigger" type="button">
+        <div class="card-face card-front">
+          <span class="item-title">سینی ویژه ساندویچی</span>
+          <div class="prices">
+            <div class="price-entry">
+              <span class="price-size">۲ نفره</span>
+              <span class="price-value">۴۲۰ ت</span>
+            </div>
+            <div class="price-entry">
+              <span class="price-size">۴ نفره</span>
+              <span class="price-value">۷۹۰ ت</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-face card-back">
+          <p>۲ نفره: ۳۰۰ گرم شاورما + قارچ و پنیر + ۲ عدد ژامبون + ۱۲ عدد فلافل + سالاد + ۲ عدد نان باگت<br>
+          ۴ نفره: ۶۰۰ گرم شاورما + قارچ و پنیر + ۴ عدد ژامبون + ۲۰ عدد فلافل + دو عدد سالاد + ۴ عدد نان باگت</p>
+        </div>
+      </button>
+    </div>
+  </div>
+
+  <div class="menu-block">
+    <div class="menu-item-card">
+      <button class="menu-item flip-trigger" type="button">
+        <div class="card-face card-front">
+          <span class="item-title">سینی ساندویچ</span>
+          <div class="prices">
+            <div class="price-entry">
+              <span class="price-size">۲ نفره</span>
+              <span class="price-value">۶۵۰ ت</span>
+            </div>
+            <div class="price-entry">
+              <span class="price-size">۴ نفره</span>
+              <span class="price-value">۱۲۵۰ ت</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-face card-back">
+          <p>۲ نفره: ۲۰۰ گرم برگر ۹۰٪ + ۳۰۰ گرم شاورما + قارچ و پنیر + ۲ عدد نان + ۲ عدد ژامبون + سالاد<br>
+          ۴ نفره: ۴۰۰ گرم برگر ۹۰٪ + ۶۰۰ گرم شاورما + قارچ و پنیر + ۴ عدد نان + ۴ عدد ژامبون + ۲ عدد سالاد</p>
+        </div>
+      </button>
+    </div>
+  </div>
+
+  <div class="menu-block">
+    <div class="menu-item-card">
+      <button class="menu-item flip-trigger" type="button">
+        <div class="card-face card-front">
+          <span class="item-title">سینی خوراک بندری با قارچ و سالاد فصل</span>
+          <div class="prices">
+            <div class="price-entry">
+              <span class="price-size">۲ نفره</span>
+              <span class="price-value">۳۸۰ ت</span>
+            </div>
+            <div class="price-entry">
+              <span class="price-size">۴ نفره</span>
+              <span class="price-value">۷۳۰ ت</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-face card-back">
+          <p>۲ نفره: ۴۰۰ گرم بندری + ۲۰۰ گرم قارچ و پنیر و مرغ + سالاد + ۲ عدد نان باگت<br>
+          ۴ نفره: ۸۰۰ گرم بندری + ۴۰۰ گرم قارچ و پنیر و مرغ + ۲ عدد سالاد + ۴ عدد نان باگت</p>
+        </div>
+      </button>
+    </div>
+  </div>
+
+  <div class="menu-block">
+    <div class="menu-item-card">
+      <button class="menu-item flip-trigger" type="button">
+        <div class="card-face card-front">
+          <span class="item-title">سینی میکس خوراک بندری و شاورما</span>
+          <div class="prices">
+            <div class="price-entry">
+              <span class="price-size">۲ نفره</span>
+              <span class="price-value">۶۷۰ ت</span>
+            </div>
+            <div class="price-entry">
+              <span class="price-size">۴ نفره</span>
+              <span class="price-value">۱۱۰۰ ت</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-face card-back">
+          <p>۲ نفره: ۲۵۰ گرم شاورما + ۳۰۰ گرم بندری + سالاد + ۲ عدد نان باگت<br>
+          ۴ نفره: ۴۰۰ گرم شاورما + ۶۰۰ گرم بندری + ۲ عدد سالاد + ۴ عدد نان باگت</p>
+        </div>
+      </button>
+    </div>
+  </div>
+
+  <div class="menu-block">
+    <div class="menu-item-card">
+      <button class="menu-item flip-trigger" type="button">
+        <div class="card-face card-front">
+          <span class="item-title">سینی پیتزا، سیب، پنیر سوخاری و سالاد فصل</span>
+          <div class="prices">
+            <div class="price-entry">
+              <span class="price-size">۲ نفره</span>
+              <span class="price-value">۷۰۰ ت</span>
+            </div>
+            <div class="price-entry">
+              <span class="price-size">۴ نفره</span>
+              <span class="price-value">۱۳۲۰ ت</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-face card-back">
+          <p>۲ نفره: ۱ عدد پیتزا + ۱ عدد سیب بندری + ۲۰۰ گرم سوخاری + سالاد فصل<br>
+          ۴ نفره: ۱ عدد پیتزا دو نفره + ۱ عدد سیب بندری + ۴۰۰ گرم سوخاری + ۲ عدد سالاد فصل</p>
+        </div>
+      </button>
+    </div>
+  </div>
+
+  <div class="menu-block">
+    <div class="menu-item-card">
+      <button class="menu-item flip-trigger" type="button">
+        <div class="card-face card-front">
+          <span class="item-title">سینی پیتزا شاورما، سیب ساده و سالاد فصل</span>
+          <div class="prices">
+            <div class="price-entry">
+              <span class="price-size">۲ نفره</span>
+              <span class="price-value">۷۴۰ ت</span>
+            </div>
+            <div class="price-entry">
+              <span class="price-size">۴ نفره</span>
+              <span class="price-value">۱۷۰۰ ت</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-face card-back">
+          <p>۲ نفره: پیتزا + ۳۵۰ گرم شاورما + سیب کلاسیک + یک عدد سالاد<br>
+          ۴ نفره: پیتزا دو نفره + ۵۰۰ گرم شاورما + سیب کلاسیک + دو عدد سالاد</p>
+        </div>
+      </button>
+    </div>
+  </div>
+
+  <div class="menu-block">
+    <div class="menu-item-card">
+      <button class="menu-item flip-trigger" type="button">
+        <div class="card-face card-front">
+          <span class="item-title">سینی شاورما با قارچ و پنیر و سالاد فصل</span>
+          <div class="prices">
+            <div class="price-entry">
+              <span class="price-size">۲ نفره</span>
+              <span class="price-value">۵۹۰ ت</span>
+            </div>
+            <div class="price-entry">
+              <span class="price-size">۴ نفره</span>
+              <span class="price-value">۱۱۸۰ ت</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-face card-back">
+          <p>۲ نفره: ۴۰۰ گرم شاورما + ۲۰۰ گرم قارچ و پنیر + ۲ عدد نان باگت + ۱ عدد سالاد<br>
+          ۴ نفره: ۸۰۰ گرم شاورما + ۴۰۰ گرم قارچ و پنیر + ۴ عدد نان باگت + ۲ عدد سالاد</p>
+        </div>
+      </button>
+    </div>
+  </div>
+
+  <div class="menu-block">
+    <div class="menu-item-card">
+      <button class="menu-item flip-trigger" type="button">
+        <div class="card-face card-front">
+          <span class="item-title">سینی میکس سوخاری، شاورما و بندری</span>
+          <div class="prices">
+            <div class="price-entry">
+              <span class="price-size">۲ نفره</span>
+              <span class="price-value">۶۳۰ ت</span>
+            </div>
+            <div class="price-entry">
+              <span class="price-size">۴ نفره</span>
+              <span class="price-value">۱۰۹۰ ت</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-face card-back">
+          <p>۲ نفره: ۲۵۰ گرم سوخاری + ۲۵۰ گرم شاورما + ۲۰۰ گرم بندری + ۳ عدد نان باگت<br>
+          ۴ نفره: ۵۰۰ گرم سوخاری + ۴۰۰ گرم شاورما + ۴۰۰ گرم بندری + ۶ عدد نان باگت</p>
+        </div>
+      </button>
+    </div>
+  </div>
+
+  <div class="menu-block">
+    <div class="menu-item-card">
+      <button class="menu-item flip-trigger" type="button">
+        <div class="card-face card-front">
+          <span class="item-title">کباب ترکی با برنج و سالاد فصل</span>
+          <div class="prices">
+            <div class="price-entry">
+              <span class="price-size">۲ نفره</span>
+              <span class="price-value">۷۰۰ ت</span>
+            </div>
+            <div class="price-entry">
+              <span class="price-size">۴ نفره</span>
+              <span class="price-value">۱۳۰۰ ت</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-face card-back">
+          <p>۲ نفره: ۲ عدد برنج + ۵۰۰ گرم کباب ترکی + یک عدد سالاد<br>
+          ۴ نفره: ۳ عدد برنج + ۸۰۰ گرم کباب ترکی + ۲ عدد سالاد + ۲ عدد ماست + ۲ عدد ترشی</p>
+        </div>
+      </button>
+    </div>
+  </div>
+
+  <div class="menu-block">
+    <div class="menu-item-card">
+      <button class="menu-item flip-trigger" type="button">
+        <div class="card-face card-front">
+          <span class="item-title">کباب ترکی خوراک و سالاد فصل</span>
+          <div class="prices">
+            <div class="price-entry">
+              <span class="price-size">۲ نفره</span>
+              <span class="price-value">۵۹۰ ت</span>
+            </div>
+            <div class="price-entry">
+              <span class="price-size">۴ نفره</span>
+              <span class="price-value">۱۱۵۰ ت</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-face card-back">
+          <p>۲ نفره: ۵۰۰ گرم کباب ترکی خوراک + یک عدد سالاد<br>
+          ۴ نفره: ۱ کیلو کباب ترکی خوراک + دو عدد سالاد</p>
+        </div>
+      </button>
+    </div>
+  </div>
+
+</section>
+
+
+
+<!-- ===== DESSERTS ===== -->
+<section id="desserts">
+  <h2>دسرها</h2>
+
+  <div class="menu-block">
+    <div class="menu-item-card">
+      <button class="menu-item flip-trigger" type="button">
+        <div class="card-face card-front">
+          <span class="item-title">سالاد فصل</span>
+          <div class="prices">
+            <div class="price-entry">
+              <span class="price-value">۵۰ ت</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-face card-back">
+          <p>ترکیبات / توضیحات [سالاد فصل].</p>
+        </div>
+      </button>
+    </div>
+  </div>
+
+  <div class="menu-block">
+    <div class="menu-item-card">
+      <button class="menu-item flip-trigger" type="button">
+        <div class="card-face card-front">
+          <span class="item-title">سیب ساده</span>
+          <div class="prices">
+            <div class="price-entry">
+              <span class="price-value">۵۰ ت</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-face card-back">
+          <p>ترکیبات / توضیحات [سیب ساده].</p>
+        </div>
+      </button>
+    </div>
+  </div>
+
+  <div class="menu-block">
+    <div class="menu-item-card">
+      <button class="menu-item flip-trigger" type="button">
+        <div class="card-face card-front">
+          <span class="item-title">ترشی</span>
+          <div class="prices">
+            <div class="price-entry">
+              <span class="price-value">۲۰ ت</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-face card-back">
+          <p>ترکیبات / توضیحات [ترشی].</p>
+        </div>
+      </button>
+    </div>
+  </div>
+
+  <div class="menu-block">
+    <div class="menu-item-card">
+      <button class="menu-item flip-trigger" type="button">
+        <div class="card-face card-front">
+          <span class="item-title">زیتون</span>
+          <div class="prices">
+            <div class="price-entry">
+              <span class="price-value">۵۰ ت</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-face card-back">
+          <p>ترکیبات / توضیحات [زیتون].</p>
+        </div>
+      </button>
+    </div>
+  </div>
+
+  <div class="menu-block">
+    <div class="menu-item-card">
+      <button class="menu-item flip-trigger" type="button">
+        <div class="card-face card-front">
+          <span class="item-title">ماست موسیر</span>
+          <div class="prices">
+            <div class="price-entry">
+              <span class="price-value">۳۰ ت</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-face card-back">
+          <p>ترکیبات / توضیحات [ماست موسیر].</p>
+        </div>
+      </button>
+    </div>
+  </div>
+
+  <div class="menu-block">
+    <div class="menu-item-card">
+      <button class="menu-item flip-trigger" type="button">
+        <div class="card-face card-front">
+          <span class="item-title">سیب کاسه‌ای</span>
+          <div class="prices">
+            <div class="price-entry">
+              <span class="price-value">۱۰ ت</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-face card-back">
+          <p>ترکیبات / توضیحات [سیب کاسه‌ای].</p>
+        </div>
+      </button>
+    </div>
+  </div>
+
+</section>
 
 
   </div>
 
+  <!-- Instagram Icon -->
+  <a href="https://www.instagram.com/fastfood_amorajab/"
+     target="_blank"
+     class="instagram-float"
+     id="instagram-float"
+     aria-label="Instagram">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg"
+         alt="Instagram Logo"
+         width="100%"
+         height="100%">
+  </a>
 
-<!-- Instagram Icon -->
-<a href="https://www.instagram.com/fastfood_amorajab/" 
-   target="_blank" 
-   class="instagram-float" 
-   id="instagram-float" 
-   aria-label="Instagram">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" 
-       alt="Instagram Logo" 
-       width="100%" 
-       height="100%">
-</a>
+  <!-- Floating Call Icon -->
+  <a href="tel:06136523901"
+     class="floating-call"
+     id="call-float"
+     aria-label="تماس">
+    <img src="images/call-icon.svg"
+         alt="تماس"
+         width="100%"
+         height="100%">
+  </a>
 
-<!-- Floating Call Icon -->
-<a href="tel:06136523901" 
-   class="floating-call" 
-   id="call-float" 
-   aria-label="تماس">
-  <img src="images/call-icon.svg" 
-       alt="تماس" 
-       width="100%" 
-       height="100%">
-</a>
+  <!-- Footer -->
+  <div class="menu-footer">
+    شماره تماس جهت سفارش: <span dir="ltr">061 3652 3901</span>
+  </div>
 
+  <!-- Flip JS: toggle + auto-close -->
+  <script>
+    (function () {
+      const triggers = Array.from(document.querySelectorAll('.flip-trigger'));
 
-<!-- Footer with phone number -->
-<div class="menu-footer">
-  شماره تماس جهت سفارش: <span dir="ltr">061 3652 3901</span>
-</div>
-
-
-<script>
-  document.querySelectorAll('.menu-item').forEach((item) => {
-    item.addEventListener('click', () => {
-      const details = item.nextElementSibling;
-      if (!details || !details.classList.contains('item-details')) return;
-
-      const isOpen = details.style.maxHeight && details.style.maxHeight !== "0px";
-
-      document.querySelectorAll('.item-details').forEach(d => {
-        d.style.maxHeight = null;
-        d.style.paddingTop = 0;
-        d.style.opacity = 0;
-        d.style.border = "none";
+      triggers.forEach(btn => {
+        btn.addEventListener('click', () => {
+          // close others
+          triggers.forEach(other => {
+            if (other !== btn) other.classList.remove('flipped');
+          });
+          // toggle this one
+          btn.classList.toggle('flipped');
+        });
       });
+    })();
+  </script>
 
-      if (!isOpen) {
-        details.style.maxHeight = details.scrollHeight + "px";
-        details.style.paddingTop = "10px";
-        details.style.opacity = 1;
-        details.style.border = "1px solid rgba(255, 255, 255, 0.2)";
+  <!-- Scroll behavior for Instagram + Call -->
+  <script>
+    const instagramFloat = document.getElementById("instagram-float");
+    const callFloat = document.getElementById("call-float");
+    const heroSection = document.getElementById("hero");
+
+    let callFloatPosition = "top"; // either 'top' or 'bottom'
+    let isAnimating = false;
+
+    window.addEventListener("scroll", function () {
+      if (!heroSection || isAnimating) return;
+
+      const heroTop = heroSection.getBoundingClientRect().top;
+      const shouldMoveToBottom = heroTop < -50;
+
+      // Instagram fade toggle
+      if (instagramFloat) {
+        instagramFloat.style.opacity = shouldMoveToBottom ? "0" : "1";
+      }
+
+      if (callFloat) {
+        if (shouldMoveToBottom && callFloatPosition === "top") {
+          // Move to bottom
+          isAnimating = true;
+          callFloat.classList.add("slide-out");
+
+          setTimeout(() => {
+            callFloat.classList.remove("slide-out");
+            callFloat.classList.add("at-bottom", "slide-in");
+            callFloatPosition = "bottom";
+
+            setTimeout(() => {
+              callFloat.classList.remove("slide-in");
+              isAnimating = false;
+            }, 400); // match animation duration
+          }, 400);
+        } else if (!shouldMoveToBottom && callFloatPosition === "bottom") {
+          // Move back to top
+          isAnimating = true;
+          callFloat.classList.add("slide-out");
+
+          setTimeout(() => {
+            callFloat.classList.remove("slide-out", "at-bottom");
+            callFloat.classList.add("slide-in");
+            callFloatPosition = "top";
+
+            setTimeout(() => {
+              callFloat.classList.remove("slide-in");
+              isAnimating = false;
+            }, 400);
+          }, 400);
+        }
       }
     });
-  });
-</script>
-
-<script>
-  const instagramFloat = document.getElementById("instagram-float");
-  const callFloat = document.getElementById("call-float");
-  const heroSection = document.getElementById("hero");
-
-  let callFloatPosition = "top"; // either 'top' or 'bottom'
-  let isAnimating = false;
-
-  window.addEventListener("scroll", function () {
-    if (!heroSection || isAnimating) return;
-
-    const heroTop = heroSection.getBoundingClientRect().top;
-    const shouldMoveToBottom = heroTop < -50;
-
-    // Instagram fade toggle
-    if (instagramFloat) {
-      instagramFloat.style.opacity = shouldMoveToBottom ? "0" : "1";
-    }
-
-    if (callFloat) {
-      if (shouldMoveToBottom && callFloatPosition === "top") {
-        // Move to bottom
-        isAnimating = true;
-        callFloat.classList.add("slide-out");
-
-        setTimeout(() => {
-          callFloat.classList.remove("slide-out");
-          callFloat.classList.add("at-bottom", "slide-in");
-          callFloatPosition = "bottom";
-
-          setTimeout(() => {
-            callFloat.classList.remove("slide-in");
-            isAnimating = false;
-          }, 400); // match animation duration
-        }, 400);
-      } else if (!shouldMoveToBottom && callFloatPosition === "bottom") {
-        // Move back to top
-        isAnimating = true;
-        callFloat.classList.add("slide-out");
-
-        setTimeout(() => {
-          callFloat.classList.remove("slide-out", "at-bottom");
-          callFloat.classList.add("slide-in");
-          callFloatPosition = "top";
-
-          setTimeout(() => {
-            callFloat.classList.remove("slide-in");
-            isAnimating = false;
-          }, 400);
-        }, 400);
-      }
-    }
-  });
-</script>
-
-
-
-
-
-
+  </script>
 
 </body>
 </html>
-
-
-
