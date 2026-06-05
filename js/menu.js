@@ -133,6 +133,19 @@ async function initializeMenu() {
     snapshot.forEach(doc => {
       menuItems.push(doc.data());
     });
+    if (menuItems.length === 0) {
+
+      console.warn(
+        "Firebase returned no menu items. Loading backup."
+      );
+    
+      const response =
+        await fetch("./js/menu-backup.json");
+    
+      menuItems =
+        await response.json();
+    
+    }
 
     console.log("Loaded menu from Firebase");
 
@@ -152,6 +165,10 @@ async function initializeMenu() {
       await response.json();
 
   }
+  console.log(
+    "Menu items loaded:",
+    menuItems.length
+  );
 
   await renderCategory("pizza", "pizza-items");
   await renderCategory("fried", "fried-items");
