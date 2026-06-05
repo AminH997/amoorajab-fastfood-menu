@@ -377,6 +377,19 @@
   .prices .price-entry + .price-entry {
     margin-top: 6px;
   }
+
+  #platters .price-entry {
+    background: linear-gradient(
+      180deg,
+      rgba(129, 199, 132, 0.95),
+      rgba(102, 187, 106, 0.95)
+    );
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+    transform: rotate(-30deg);
+  }
+
+  
   
   /* responsive tweaks */
   @media (min-width: 720px) {
