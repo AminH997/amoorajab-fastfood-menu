@@ -1,0 +1,821 @@
+[
+  {
+    "category": "burgers",
+    "name": "دوبل برگر ذغالی ویژه",
+    "active": true,
+    "order": 1,
+    "description": "دو عدد برگر دست‌ساز ۱۳۰ گرمی، ژامبون، مرغ و قارچ و پنیر",
+    "prices": [
+      {
+        "price": 630,
+        "label": ""
+      }
+    ]
+  },
+  {
+    "category": "fried",
+    "name": "تیکه فیله",
+    "order": 1,
+    "active": true,
+    "description": "",
+    "prices": [
+      {
+        "label": "",
+        "price": 60
+      }
+    ]
+  },
+  {
+    "category": "pizza",
+    "name": "پیتزا گوشت و قارچ",
+    "active": true,
+    "order": 1,
+    "description": "گوشت چرخ شده، قارچ، پنیر",
+    "prices": [
+      {
+        "price": 600,
+        "label": "تک نفره"
+      },
+      {
+        "price": 1100,
+        "label": "دو نفره"
+      }
+    ]
+  },
+  {
+    "description": "دو سیخ کوبیده ۱۰۰ گرمی، مرغ ریش‌ریش شده، قارچ و پنیر",
+    "prices": [
+      {
+        "price": 480,
+        "label": ""
+      }
+    ],
+    "category": "sandwiches",
+    "order": 1,
+    "active": true,
+    "name": "ساندویچ کوبیده ویژه"
+  },
+  {
+    "prices": [
+      {
+        "price": 60,
+        "label": ""
+      }
+    ],
+    "description": "",
+    "order": 1,
+    "active": true,
+    "name": "سالاد فصل",
+    "category": "desserts"
+  },
+  {
+    "category": "traditional-food",
+    "name": "چلو میکس",
+    "active": true,
+    "order": 1,
+    "description": "۴۰۰ گرم برنج ، ۲۵۰ گرم جوجه بدون استخوان  یک سیخ ۱۰۰ گرمی کوبیده - دورچین",
+    "prices": [
+      {
+        "label": "",
+        "price": 1100
+      }
+    ]
+  },
+  {
+    "prices": [],
+    "description": "۲ نفره: دو سیخ جوجه + اکبر جوجه + دو عدد برنج + یک عدد سالاد + ۱۰۰ گرم سیب\n          ۴ نفره: چهار سیخ کوبیده + ۲ عدد اکبر جوجه + سه عدد برنج + ۲۰۰ گرم سیب + دو عدد سالاد",
+    "name": "سینی میکس اکبر جوجه، کوبیده و سالاد فصل",
+    "order": 1,
+    "active": true,
+    "category": "platters"
+  },
+  {
+    "category": "sandwiches",
+    "active": true,
+    "order": 2,
+    "name": "ساندویچ کوبیده کلاسیک",
+    "description": "دو سیخ کوبیده ۱۰۰ گرمی",
+    "prices": [
+      {
+        "price": 380,
+        "label": ""
+      }
+    ]
+  },
+  {
+    "prices": [
+      {
+        "price": 550,
+        "label": "تک نفره"
+      },
+      {
+        "price": 1050,
+        "label": "دو نفره"
+      }
+    ],
+    "description": "شاورما مرغ و قارچ و پنیر",
+    "name": "پیتزا مرغ و قارچ",
+    "order": 2,
+    "active": true,
+    "category": "pizza"
+  },
+  {
+    "description": "یک عدد برگر دست‌ساز ۱۳۰ گرمی، ژامبون، مرغ و قارچ و پنیر",
+    "prices": [
+      {
+        "price": 490,
+        "label": ""
+      }
+    ],
+    "category": "burgers",
+    "active": true,
+    "order": 2,
+    "name": "برگر ذغالی ٩۰٪ ویژه"
+  },
+  {
+    "category": "desserts",
+    "order": 2,
+    "active": true,
+    "name": "سیب ساده",
+    "description": "",
+    "prices": [
+      {
+        "price": 150,
+        "label": ""
+      }
+    ]
+  },
+  {
+    "prices": [
+      {
+        "price": 700,
+        "label": ""
+      }
+    ],
+    "description": "۴۰۰ گرم برنج، ۱۵۰ گرم سس مخصوص، ۱۰۰ گرم سیب‌زمینی، نصف مرغ ۸۵۰ گرمی",
+    "name": "اکبر جوجه با برنج",
+    "active": true,
+    "order": 2,
+    "category": "traditional-food"
+  },
+  {
+    "order": 2,
+    "active": true,
+    "name": "سینی میکس خوراک اکبر جوجه و سوخاری",
+    "category": "platters",
+    "prices": [],
+    "description": "۲ نفره: اکبر جوجه + ۲۵۰ گرم سوخاری + یک عدد سالاد + ۱۰۰ گرم سیب\n          ۴ نفره: ۲ عدد اکبر جوجه + ۴۰۰ گرم سوخاری + سه عدد نان باگت + یک عدد سالاد"
+  },
+  {
+    "prices": [
+      {
+        "price": 100,
+        "label": ""
+      }
+    ],
+    "description": "",
+    "active": true,
+    "order": 2,
+    "name": "ران",
+    "category": "fried"
+  },
+  {
+    "description": "",
+    "prices": [
+      {
+        "price": 50,
+        "label": ""
+      }
+    ],
+    "category": "fried",
+    "active": true,
+    "order": 3,
+    "name": "کتف و بال"
+  },
+  {
+    "category": "sandwiches",
+    "name": "ساندویچ جوجه ویژه",
+    "order": 3,
+    "active": true,
+    "description": "یک سیخ جوجه ۲۵۰ گرمی، قارچ و پنیر",
+    "prices": [
+      {
+        "price": 460,
+        "label": ""
+      }
+    ]
+  },
+  {
+    "category": "pizza",
+    "order": 3,
+    "active": true,
+    "name": "پیتزا پپرونی",
+    "description": "پپرونی، قارچ و پنیر",
+    "prices": [
+      {
+        "price": 500,
+        "label": "تک نفره"
+      },
+      {
+        "price": 980,
+        "label": "دو نفره"
+      }
+    ]
+  },
+  {
+    "prices": [
+      {
+        "price": 390,
+        "label": ""
+      }
+    ],
+    "description": "یک عدد برگر دست‌ساز ۱۳۰ گرمی، ژامبون",
+    "active": true,
+    "order": 3,
+    "name": "برگر ذغالی بانی ۹۰٪",
+    "category": "burgers"
+  },
+  {
+    "description": "",
+    "prices": [
+      {
+        "price": 50,
+        "label": ""
+      }
+    ],
+    "category": "desserts",
+    "order": 3,
+    "active": true,
+    "name": "ترشی"
+  },
+  {
+    "category": "traditional-food",
+    "order": 3,
+    "active": true,
+    "name": "اکبر جوجه خوراک",
+    "description": "۱۵۰ گرم سس مخصوص، ۱۰۰ گرم سیب‌زمینی نصف مرغ ۸۵۰ گرمی",
+    "prices": [
+      {
+        "price": 600,
+        "label": ""
+      }
+    ]
+  },
+  {
+    "name": "سینی کتف و بال کبابی و قارچ کبابی",
+    "active": true,
+    "order": 3,
+    "category": "platters",
+    "prices": [],
+    "description": "۲ نفره: دو سیخ کتف و بال + یک سیخ قارچ + یک عدد سالاد\n          ۴ نفره: چهار سیخ کتف و بال + دو سیخ قارچ + دو عدد سالاد"
+  },
+  {
+    "category": "fried",
+    "name": "پاچین",
+    "active": true,
+    "order": 4,
+    "description": "",
+    "prices": [
+      {
+        "price": 60,
+        "label": ""
+      }
+    ]
+  },
+  {
+    "order": 4,
+    "active": true,
+    "name": "ساندویچ جوجه کلاسیک",
+    "category": "sandwiches",
+    "prices": [
+      {
+        "price": 380,
+        "label": ""
+      }
+    ],
+    "description": "یک سیخ جوجه ۲۵۰ گرمی"
+  },
+  {
+    "active": true,
+    "order": 4,
+    "name": "سینی جوجه کباب، کوبیده و سالاد فصل",
+    "category": "platters",
+    "prices": [],
+    "description": "۲ نفره: چلو کباب + چلو جوجه + یک عدد سالاد + ماست + زیتون\n          ۴ نفره: ۴ عدد چلو کباب + دو عدد چلو جوجه + دو عدد سالاد + ۲ ماست + ترشی"
+  },
+  {
+    "name": "زیتون",
+    "order": 4,
+    "active": true,
+    "category": "desserts",
+    "prices": [
+      {
+        "price": 60,
+        "label": ""
+      }
+    ],
+    "description": ""
+  },
+  {
+    "name": "پیتزا مخصوص",
+    "active": true,
+    "order": 4,
+    "category": "pizza",
+    "prices": [
+      {
+        "price": 520,
+        "label": "تک نفره"
+      },
+      {
+        "price": 1000,
+        "label": "دو نفره"
+      }
+    ],
+    "description": "ژامبون، قارچ و پنیر، مرغ ریش ریش شده"
+  },
+  {
+    "description": "یک عدد برگر دست‌ساز ۱۳۰ گرمی ذغالی",
+    "prices": [
+      {
+        "price": 340,
+        "label": ""
+      }
+    ],
+    "category": "burgers",
+    "order": 4,
+    "active": true,
+    "name": "برگر ذغالی ۹۰٪ کلاسیک"
+  },
+  {
+    "category": "traditional-food",
+    "name": "چلو کوبیده",
+    "active": true,
+    "order": 4,
+    "description": "۴۰۰ گرم برنج، ۲ سیخ کوبیده ۱۰۰ گرمی، دورچین",
+    "prices": [
+      {
+        "price": 480,
+        "label": ""
+      }
+    ]
+  },
+  {
+    "description": "۲ سیخ کوبیده ۱۰۰ گرمی، دورچین",
+    "prices": [
+      {
+        "price": 380,
+        "label": ""
+      }
+    ],
+    "category": "traditional-food",
+    "order": 5,
+    "active": true,
+    "name": "خوراک کوبیده"
+  },
+  {
+    "prices": [
+      {
+        "price": 400,
+        "label": "تک نفره"
+      },
+      {
+        "price": 700,
+        "label": "دو نفره"
+      }
+    ],
+    "description": "سیب، قارچ و پنیر و ژامبون",
+    "name": "سیب پنیر ویژه",
+    "active": true,
+    "order": 5,
+    "category": "pizza"
+  },
+  {
+    "prices": [
+      {
+        "price": 50,
+        "label": ""
+      }
+    ],
+    "description": "",
+    "name": "ماست موسیر",
+    "order": 5,
+    "active": true,
+    "category": "desserts"
+  },
+  {
+    "category": "sandwiches",
+    "active": true,
+    "order": 5,
+    "name": "ساندویچ گوشت و قارچ و پنیر",
+    "description": "۱۳۰ گرم گوشت چرخ‌ شده، قارچ ۱۰۰ گرم، پنیر ۱۰۰ گرم",
+    "prices": [
+      {
+        "price": 430,
+        "label": ""
+      }
+    ]
+  },
+  {
+    "description": "دو عدد برگر دست‌ساز ۱۱۰ گرمی ذغالی، مرغ و قارچ و پنیر",
+    "prices": [
+      {
+        "price": 550,
+        "label": ""
+      }
+    ],
+    "category": "burgers",
+    "order": 5,
+    "active": true,
+    "name": "دوبل برگر ۶۰٪ ویژه"
+  },
+  {
+    "category": "fried",
+    "name": "سیب زمینی سوخاری (۲۰۰ گرمی)",
+    "order": 5,
+    "active": true,
+    "description": "",
+    "prices": [
+      {
+        "price": 150,
+        "label": ""
+      }
+    ]
+  },
+  {
+    "name": "سینی میکس خوراک شاورما و سوخاری",
+    "active": true,
+    "order": 5,
+    "category": "platters",
+    "prices": [],
+    "description": "۲ نفره: ۲۵۰ گرم شاورما + ۳۰۰ گرم سوخاری + یک عدد سالاد فصل + ماست + نان باگت\n          ۴ نفره: ۵۰۰ گرم شاورما + ۵۰۰ گرم سوخاری + دو عدد سالاد فصل + ۴ عدد نان باگت"
+  },
+  {
+    "name": "سینی میکس",
+    "order": 6,
+    "active": true,
+    "category": "platters",
+    "prices": [],
+    "description": "۲ نفره: ۱۰۰ گرم سوخاری + ۲۰۰ گرم شاورما + یک سیخ کوبیده + یک سیخ جوجه + اکبر جوجه + سالاد\n          ۴ نفره: ۳۰۰ گرم سوخاری + ۲۵۰ گرم شاورما + ۳ سیخ کوبیده + جوجه + ۲ عدد اکبر جوجه + ۲ سالاد"
+  },
+  {
+    "prices": [
+      {
+        "price": 440,
+        "label": ""
+      }
+    ],
+    "description": "یک عدد برگر دست‌ساز ۱۱۰ گرمی ذغالی، مرغ و قارچ و پنیر",
+    "name": "برگر ۶۰٪ ویژه",
+    "order": 6,
+    "active": true,
+    "category": "burgers"
+  },
+  {
+    "prices": [
+      {
+        "price": 50,
+        "label": ""
+      }
+    ],
+    "description": "",
+    "name": "قارچ سوخاری (۲۰۰ گرمی)",
+    "active": true,
+    "order": 6,
+    "category": "fried"
+  },
+  {
+    "category": "desserts",
+    "name": "سس کاسه‌ای",
+    "active": true,
+    "order": 6,
+    "description": "",
+    "prices": [
+      {
+        "price": 15,
+        "label": ""
+      }
+    ]
+  },
+  {
+    "category": "sandwiches",
+    "name": "شاورما مرغ و قارچ و پنیر",
+    "order": 6,
+    "active": true,
+    "description": "شاورمای مرغ ۲۰۰ گرم، قارچ ۱۰۰ گرم، پنیر ۱۰۰ گرم",
+    "prices": [
+      {
+        "price": 430,
+        "label": ""
+      }
+    ]
+  },
+  {
+    "description": "۴۰۰ گرم برنج، یک سیخ ۲۵۰ گرمی جوجه بدون استخوان، دورچین",
+    "prices": [
+      {
+        "price": 480,
+        "label": ""
+      }
+    ],
+    "category": "traditional-food",
+    "name": "چلو جوجه",
+    "active": true,
+    "order": 6
+  },
+  {
+    "category": "sandwiches",
+    "order": 7,
+    "active": true,
+    "name": "شاورما مرغ کلاسیک",
+    "description": "شاورمای مرغ ۲۰۰ گرم",
+    "prices": [
+      {
+        "price": 370,
+        "label": ""
+      }
+    ]
+  },
+  {
+    "description": "یک سیخ ۲۵۰ گرمی جوجه بدون استخوان، دورچین",
+    "prices": [
+      {
+        "price": 380,
+        "label": ""
+      }
+    ],
+    "category": "traditional-food",
+    "name": "خوراک جوجه",
+    "order": 7,
+    "active": true
+  },
+  {
+    "category": "burgers",
+    "active": true,
+    "order": 7,
+    "name": "برگر ۶۰٪ بانی",
+    "description": "یک عدد برگر دست‌ساز ۱۱۰ گرمی ذغالی، یک عدد ژامبون",
+    "prices": [
+      {
+        "price": 330,
+        "label": ""
+      }
+    ]
+  },
+  {
+    "description": "۲ نفره: ۳۰۰ گرم سیب + ۷۰۰ گرم سوخاری + ۴ عدد نان + یک عدد سالاد فصل\n          ۴ نفره: ۶۰۰ گرم سیب + ۱۲۰۰ گرم سوخاری + ۴ عدد نان + دو عدد سالاد فصل + ماست",
+    "prices": [],
+    "category": "platters",
+    "active": true,
+    "order": 7,
+    "name": "سینی میکس انواع سوخاری"
+  },
+  {
+    "description": "یک عدد هات‌داگ ۱۳۰ گرمی، مرغ و قارچ و پنیر",
+    "prices": [
+      {
+        "price": 390,
+        "label": ""
+      }
+    ],
+    "category": "sandwiches",
+    "order": 8,
+    "active": true,
+    "name": "هات داگ ویژه"
+  },
+  {
+    "active": true,
+    "order": 8,
+    "name": "برگر ۶۰٪ کلاسیک",
+    "category": "burgers",
+    "prices": [
+      {
+        "price": 260,
+        "label": ""
+      }
+    ],
+    "description": "یک عدد برگر دست‌ساز ۱۱۰ گرمی"
+  },
+  {
+    "name": "کتف و بال کبابی",
+    "active": true,
+    "order": 8,
+    "category": "traditional-food",
+    "prices": [
+      {
+        "price": 350,
+        "label": ""
+      }
+    ],
+    "description": "۳۵۰ گرم کتف و بال، دورچین"
+  },
+  {
+    "category": "platters",
+    "active": true,
+    "order": 8,
+    "name": "سینی ویژه ساندویچی",
+    "description": "۲ نفره: ۳۰۰ گرم شاورما + قارچ و پنیر + ۲ عدد ژامبون + ۱۲ عدد فلافل + سالاد + ۲ عدد نان باگت\n          ۴ نفره: ۶۰۰ گرم شاورما + قارچ و پنیر + ۴ عدد ژامبون + ۲۰ عدد فلافل + دو عدد سالاد + ۴ عدد نان باگت",
+    "prices": []
+  },
+  {
+    "description": "۲ نفره: ۲۰۰ گرم برگر ۹۰٪ + ۳۰۰ گرم شاورما + قارچ و پنیر + ۲ عدد نان + ۲ عدد ژامبون + سالاد\n          ۴ نفره: ۴۰۰ گرم برگر ۹۰٪ + ۶۰۰ گرم شاورما + قارچ و پنیر + ۴ عدد نان + ۴ عدد ژامبون + ۲ عدد سالاد",
+    "prices": [],
+    "category": "platters",
+    "active": true,
+    "order": 9,
+    "name": "سینی ساندویچ"
+  },
+  {
+    "name": "هات داگ پنیری کلاسیک",
+    "active": true,
+    "order": 9,
+    "category": "sandwiches",
+    "prices": [
+      {
+        "price": 320,
+        "label": ""
+      }
+    ],
+    "description": "یک عدد هات‌داگ ۱۳۰ گرمی پنیری"
+  },
+  {
+    "category": "traditional-food",
+    "active": true,
+    "order": 9,
+    "name": "قارچ کبابی",
+    "description": "۲۵۰ گرم قارچ کبابی",
+    "prices": [
+      {
+        "price": 220,
+        "label": ""
+      }
+    ]
+  },
+  {
+    "description": "یک عدد دست‌ساز سبزیجات ۱۱۰ گرمی، ژامبون، مرغ و قارچ و پنیر",
+    "prices": [
+      {
+        "price": 340,
+        "label": ""
+      }
+    ],
+    "category": "burgers",
+    "name": "برگر سبزیجات  %٠ ویژه",
+    "order": 9,
+    "active": true
+  },
+  {
+    "prices": [
+      {
+        "price": 350,
+        "label": ""
+      }
+    ],
+    "description": "دو عدد سوسیس کوکتل، مرغ و قارچ و پنیر",
+    "name": "کوکتل پنیری ویژه",
+    "active": true,
+    "order": 10,
+    "category": "sandwiches"
+  },
+  {
+    "prices": [],
+    "description": "۲ نفره: ۴۰۰ گرم بندری + ۲۰۰ گرم قارچ و پنیر و مرغ + سالاد + ۲ عدد نان باگت\n          ۴ نفره: ۸۰۰ گرم بندری + ۴۰۰ گرم قارچ و پنیر و مرغ + ۲ عدد سالاد + ۴ عدد نان باگت",
+    "active": true,
+    "order": 10,
+    "name": "سینی خوراک بندری با قارچ و سالاد فصل",
+    "category": "platters"
+  },
+  {
+    "description": "یک عدد دست‌ساز سبزیجات ۱۱۰ گرمی",
+    "prices": [
+      {
+        "price": 150,
+        "label": ""
+      }
+    ],
+    "category": "burgers",
+    "order": 10,
+    "active": true,
+    "name": "برگر سبزیجات %٠ کلاسیک"
+  },
+  {
+    "prices": [
+      {
+        "price": 220,
+        "label": ""
+      }
+    ],
+    "description": "یک عدد دست‌ساز سبزیجات ۱۱۰ گرمی، ژامبون",
+    "name": "برگر سبزیجات %٠ بانی",
+    "active": true,
+    "order": 11,
+    "category": "burgers"
+  },
+  {
+    "description": "۲۰۰ گرم خوراک بندری، مرغ و قارچ و پنیر",
+    "prices": [
+      {
+        "price": 360,
+        "label": ""
+      }
+    ],
+    "category": "sandwiches",
+    "name": "بندری پنیری ویژه",
+    "order": 11,
+    "active": true
+  },
+  {
+    "prices": [],
+    "description": "۲ نفره: ۲۵۰ گرم شاورما + ۳۰۰ گرم بندری + سالاد + ۲ عدد نان باگت\n          ۴ نفره: ۴۰۰ گرم شاورما + ۶۰۰ گرم بندری + ۲ عدد سالاد + ۴ عدد نان باگت",
+    "name": "سینی میکس خوراک بندری و شاورما",
+    "order": 11,
+    "active": true,
+    "category": "platters"
+  },
+  {
+    "name": "سینی پیتزا، سیب پنیر، سوخاری و سالاد فصل",
+    "active": true,
+    "order": 12,
+    "category": "platters",
+    "prices": [],
+    "description": "۲ نفره: ۱ عدد پیتزا + ۱ عدد سیب بندری + ۲۰۰ گرم سوخاری + سالاد فصل\n          ۴ نفره: ۱ عدد پیتزا دو نفره + ۱ عدد سیب بندری + ۴۰۰ گرم سوخاری + ۲ عدد سالاد فصل"
+  },
+  {
+    "category": "sandwiches",
+    "name": "بندری کلاسیک",
+    "order": 12,
+    "active": true,
+    "description": "۲۵۰ گرم خوراک بندری",
+    "prices": [
+      {
+        "price": 280,
+        "label": ""
+      }
+    ]
+  },
+  {
+    "active": true,
+    "order": 13,
+    "name": "فلافل ویژه",
+    "category": "sandwiches",
+    "prices": [
+      {
+        "price": 340,
+        "label": ""
+      }
+    ],
+    "description": "۶ قرص فلافل، ژامبون، مرغ و قارچ و پنیر"
+  },
+  {
+    "category": "platters",
+    "order": 13,
+    "active": true,
+    "name": "سینی پیتزا، شاورما، سیب ساده و سالاد فصل",
+    "description": "۲ نفره: پیتزا + ۳۵۰ گرم شاورما + سیب کلاسیک + یک عدد سالاد\n          ۴ نفره: پیتزا دو نفره + ۵۰۰ گرم شاورما + سیب کلاسیک + دو عدد سالاد",
+    "prices": []
+  },
+  {
+    "prices": [
+      {
+        "price": 290,
+        "label": ""
+      }
+    ],
+    "description": "۶ قرص فلافل، ۱۵۰ گرم بندری، ژامبون گوشت",
+    "name": "فلافل مخصوص",
+    "active": true,
+    "order": 14,
+    "category": "sandwiches"
+  },
+  {
+    "category": "platters",
+    "order": 14,
+    "active": true,
+    "name": "سینی شاورما با قارچ و پنیر و سالاد فصل",
+    "description": "۲ نفره: ۴۰۰ گرم شاورما + ۲۰۰ گرم قارچ و پنیر + ۲ عدد نان باگت + ۱ عدد سالاد\n          ۴ نفره: ۸۰۰ گرم شاورما + ۴۰۰ گرم قارچ و پنیر + ۴ عدد نان باگت + ۲ عدد سالاد",
+    "prices": []
+  },
+  {
+    "description": "۲ نفره: ۲۵۰ گرم سوخاری + ۲۵۰ گرم شاورما + ۲۰۰ گرم بندری + ۳ عدد نان باگت\n          ۴ نفره: ۵۰۰ گرم سوخاری + ۴۰۰ گرم شاورما + ۴۰۰ گرم بندری + ۶ عدد نان باگت",
+    "prices": [],
+    "category": "platters",
+    "order": 15,
+    "active": true,
+    "name": "سینی میکس سوخاری، شاورما و بندری"
+  },
+  {
+    "order": 16,
+    "active": true,
+    "name": "کباب ترکی با برنج و سالاد فصل",
+    "category": "platters",
+    "prices": [],
+    "description": "۲ نفره: ۲ عدد برنج + ۵۰۰ گرم کباب ترکی + یک عدد سالاد\n          ۴ نفره: ۳ عدد برنج + ۸۰۰ گرم کباب ترکی + ۲ عدد سالاد + ۲ عدد ماست + ۲ عدد ترشی"
+  },
+  {
+    "prices": [],
+    "description": "۲ نفره: ۵۰۰ گرم کباب ترکی خوراک + یک عدد سالاد\n          ۴ نفره: ۱ کیلو کباب ترکی خوراک + دو عدد سالاد",
+    "name": "کباب ترکی خوراک و سالاد فصل",
+    "active": true,
+    "order": 17,
+    "category": "platters"
+  }
+]
