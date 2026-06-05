@@ -4,6 +4,8 @@ import {
   collection,
   getDocs
 } from "https://www.gstatic.com/firebasejs/12.1.0/firebase-firestore.js";
+let menuItems = [];
+
 
 function toPersianDigits(num) {
   return num.toString().replace(/\d/g, d => '۰۱۲۳۴۵۶۷۸۹'[d]);
@@ -17,15 +19,7 @@ async function renderCategory(categoryName, containerId) {
     }
     container.innerHTML = "";
 
-    const snapshot = await getDocs(collection(db, "menuItems"));
-
-    const items = [];
-
-    snapshot.forEach(doc => {
-    items.push(doc.data());
-    });
-
-    items.sort((a, b) => a.order - b.order);
+    const items = menuItems;
 
     items.forEach(item => {
       if (item.category !== categoryName) return;
@@ -126,6 +120,38 @@ function initializeFlipCards() {
 }
 
 async function initializeMenu() {
+
+  try {
+
+    const snapshot =
+      await getDocs(
+        collection(db, "menuItems")
+      );
+
+    menuItems = [];
+
+    snapshot.forEach(doc => {
+      menuItems.push(doc.data());
+    });
+
+    console.log("Loaded menu from Firebase");
+
+  }
+
+  catch (error) {
+
+    console.warn(
+      "Firebase unavailable, loading backup menu",
+      error
+    );
+
+    const response =
+      await fetch("./js/menu-backup.json");
+
+    menuItems =
+      await response.json();
+
+  }
 
   await renderCategory("pizza", "pizza-items");
   await renderCategory("fried", "fried-items");
