@@ -181,6 +181,24 @@
       }
     });
   </script>
-<script type="module" src="js/menu.js"></script>
+<script type="module">
+
+  import("./js/menu.js")
+    .catch(async () => {
+
+      console.warn(
+        "Firebase failed. Loading backup menu."
+      );
+
+      const backup =
+        await import(
+          "./js/menu-backup-loader.js"
+        );
+
+      backup.loadBackupMenu();
+
+    });
+
+</script>
 </body>
 </html>
