@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+
+    <h1>Menu Admin</h1>
+
+    <div id="loginSection">
+
+        <input id="email">
+        <input type="password" id="password" placeholder="Password">
+      
+        <button id="loginBtn">
+          Login
+        </button>
+      
+      </div>
+
+      <div id="adminSection">
+
+        <div id="status"></div>
+      
+        <button id="logoutBtn">
+          Logout
+        </button>
+      
+        <input
+          id="searchInput"
+          placeholder="Search menu items..."
+        >
+      
+        <div id="adminContent"></div>
+      
+      </div>
+
+
+    <script type="module" src="js/admin.js"></script>
+
+</body>
+</html>

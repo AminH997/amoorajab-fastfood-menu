@@ -1,0 +1,288 @@
+/* ===== Global ===== */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 20px;
+  
+    background: #e9edf2;
+  
+    color: #1f2937;
+  
+    font-family:
+      system-ui,
+      -apple-system,
+      BlinkMacSystemFont,
+      "Segoe UI",
+      sans-serif;
+  }
+  
+  /* ===== Page Title ===== */
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 24px;
+  
+    font-size: 28px;
+  }
+  
+  /* ===== Sections ===== */
+  
+/* ===== Login Card ===== */
+
+#loginSection {
+    background: white;
+  
+    padding: 24px;
+  
+    border-radius: 16px;
+  
+    box-shadow:
+      0 6px 16px rgba(0,0,0,.10);
+  }
+  #adminSection {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  input {
+    width: 100%;
+  
+    padding: 14px;
+  
+    margin-bottom: 12px;
+  
+    border: 1px solid #d1d5db;
+  
+    border-radius: 12px;
+  
+    font-size: 16px;
+  }
+  button {
+    border: none;
+  
+    border-radius: 12px;
+  
+    padding: 14px 18px;
+  
+    font-size: 16px;
+  
+    cursor: pointer;
+  }
+  #loginBtn {
+    width: 100%;
+  
+    background: #2e7d32;
+    color: white;
+  
+    font-weight: 600;
+  }
+  #logoutBtn {
+    background: #c62828;
+    color: white;
+  
+    margin-bottom: 16px;
+  }
+  #status {
+    margin-bottom: 12px;
+  
+    font-weight: 600;
+  }
+
+  /* ===== Category Groups ===== */
+
+details {
+    background: white;
+  
+    border-radius: 16px;
+  
+    margin-bottom: 14px;
+  
+    overflow: hidden;
+  
+    box-shadow:
+    0 6px 16px rgba(0,0,0,.10);
+  }
+
+  #searchInput {
+    margin-bottom: 18px;
+  
+    background: white;
+  
+    box-shadow:
+      0 2px 8px rgba(0,0,0,.05);
+  }
+  /* ===== Menu Item Card ===== */
+
+  .menu-item-admin {
+    background: white;
+    border-radius: 16px;
+    padding: 18px;
+    margin: 12px 0;
+    box-shadow: 0 6px 18px rgba(0,0,0,.10);
+  }
+  .menu-item-admin h3 {
+    margin-top: 0;
+    margin-bottom: 16px;
+  
+    font-size: 20px;
+  
+    color: #1f2937;
+  }
+  .price-input {
+    margin-top: 6px;
+    background: #f8fafc;
+    border: 1px solid #d6dce5;
+    border-radius: 12px;
+    padding: 12px 14px;
+    font-size: 16px;
+    transition: 0.2s;
+  }
+  .price-input:focus {
+    outline: none;
+  
+    border-color: #2e7d32;
+  
+    box-shadow:
+      0 0 0 3px rgba(46,125,50,.15);
+  }
+
+  .price-group {
+    margin-bottom: 14px;
+  }
+  
+  .price-label {
+    margin-bottom: 6px;
+  
+    font-size: 14px;
+  
+    font-weight: 600;
+  
+    color: #6b7280;
+  }
+
+  .save-btn {
+    width: 100%;
+  
+    background: #2e7d32;
+  
+    color: white;
+  
+    font-weight: 600;
+  
+    margin-top: 10px;
+  }
+  .save-btn:hover {
+    opacity: .9;
+  }
+  .save-btn.saved {
+    background: #1b5e20;
+  }
+
+  .hidden-item {
+    opacity: 0.55;
+  }
+  
+  .hidden-item h3 {
+    text-decoration: line-through;
+  }
+
+  summary {
+    list-style: none;
+  
+    cursor: pointer;
+  
+    padding: 18px;
+  
+    font-size: 18px;
+  
+    font-weight: 600;
+  
+    user-select: none;
+  }
+
+  summary::-webkit-details-marker {
+    display: none;
+  }
+
+  summary::before {
+    content: "▶";
+  
+    display: inline-block;
+  
+    margin-left: 8px;
+  
+    transition: transform .2s ease;
+  }
+  details[open] summary::before {
+    transform: rotate(90deg);
+  }
+
+  .active-checkbox {
+    margin-left: 8px;
+  }
+  .menu-item-admin label {
+    display: block;
+  
+    margin-bottom: 10px;
+  }
+
+  #status {
+    background: white;
+  
+    padding: 12px 16px;
+  
+    border-radius: 12px;
+  
+    margin-bottom: 12px;
+  
+    box-shadow:
+    0 6px 16px rgba(0,0,0,.10);
+  }
+/* Make number inputs look clean */
+.price-input {
+    width: 100%;
+    -moz-appearance: textfield;
+    appearance: textfield;
+  }
+  
+  .price-input::-webkit-outer-spin-button,
+  .price-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  /* Make the visibility row look like a proper control */
+  .menu-item-admin label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 12px 0;
+    padding: 10px 12px;
+    background: #f8fafc;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    font-weight: 500;
+  }
+  
+  .active-checkbox {
+    width: 18px;
+    height: 18px;
+    margin: 0;
+    accent-color: #2e7d32;
+    flex: 0 0 auto;
+  }
+
+
+
+
+  @media (max-width: 768px) {
+
+    .menu-item-admin {
+      margin: 10px;
+      padding: 14px;
+    }
+  
+  }
