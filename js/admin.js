@@ -185,7 +185,19 @@ function renderAdminItems(items) {
         });
 
         card.innerHTML = `
-          <h3>${item.name}</h3>
+          <h3 class="item-title-row">
+          <span class="item-name">
+            ${item.name}
+          </span>
+        
+          <button
+            type="button"
+            class="edit-name-btn"
+            title="ویرایش نام"
+          >
+            ✏️
+          </button>
+        </h3>
 
           <label>
             <input
@@ -206,7 +218,11 @@ function renderAdminItems(items) {
 
         const activeCheckbox =
           card.querySelector(".active-checkbox");
-
+          const nameSpan =
+            card.querySelector(".item-name");
+          
+          const editNameBtn =
+            card.querySelector(".edit-name-btn");
         activeCheckbox.addEventListener("change", () => {
 
           if (activeCheckbox.checked) {
@@ -219,6 +235,29 @@ function renderAdminItems(items) {
 
         const saveBtn =
           card.querySelector(".save-btn");
+
+
+
+        editNameBtn.addEventListener("click", () => {
+
+          const newName = prompt(
+            "نام جدید آیتم:",
+            nameSpan.textContent.trim()
+          );
+
+  if (
+    newName &&
+    newName.trim() !== ""
+  ) {
+
+    nameSpan.textContent =
+      newName.trim();
+      saveBtn.classList.add("saved");
+      saveBtn.textContent = "نیاز به ذخیره";
+
+  }
+
+});
 
         saveBtn.addEventListener("click", async () => {
 
@@ -237,6 +276,7 @@ function renderAdminItems(items) {
             await updateDoc(
               doc(db, "menuItems", item.id),
               {
+                name: nameSpan.textContent,
                 prices: updatedPrices,
                 active: activeCheckbox.checked
               }
